@@ -1,0 +1,46 @@
+<html>
+<head>
+  
+  <link rel="stylesheet" href="progress_bar.css">
+<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap-vue/dist/css/bootstrap-vue.css">
+</head>
+
+<body>
+
+
+
+<div>
+  <ul id="progress-bar">
+    <li v-for="item in items" v-bind:class='item.status'> {{ item.name }} </li>
+  </ul>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script>
+
+
+var example1 = new Vue({
+  el: '#progress-bar',
+  data: {
+    items: [
+      { name: '活動設定', status: 'done'},
+      { name: '獎品設定', status: 'active'},
+      { name: '遊戲設計', status: 'yet'},
+      { name: '預覽', status: 'yet'},
+      { name: '完成', status: 'yet'},
+    ]
+    }
+  })
+</script>
+
+<!-- https://vuejs.org/v2/guide/list.html#key 
+  <script src="progress_bar.js"></script>
+-->
+        
+
+</body>
+</html>
