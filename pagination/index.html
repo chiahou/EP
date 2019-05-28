@@ -8,26 +8,29 @@
 	<script src="index.js"></script>
 </head>	
 <body>
-<div
+<div class="container">
+<div class="row">
 	<div class="pagination" id="pagination-template">
 		<p class="pagination-item">第1 - 20筆/ 共169筆</p>
-		<button class="pagination-item" class="disabled"><i data-feather="chevron-left" class="disabled"></i></button>
-		<button class="pagination-item"><i data-feather="chevron-right"></i></button> 
+		<button class="pagination-item disabled"><i data-feather="chevron-left" class="disabled"></i></button>
+		<button class="pagination-item enabled"><i data-feather="chevron-right" class="enabled"></i></button> 
 	</div>
+</div>
+<div class="row">
 	<div class="pagination" id="pagination-template">
-		<v-container>
 		<p class="pagination-item">第21 - 40筆/ 共169筆</p>
-		<button class="pagination-item" ><i data-feather="chevron-left" class="enabled"></i></button>
-		<button class="pagination-item"><i data-feather="chevron-right" class="enabled"></i></button> 
-		</v-container>
+		<button class="pagination-item enabled" ><i data-feather="chevron-left" class="enabled"></i></button>
+		<button class="pagination-item enabled"><i data-feather="chevron-right" class="enabled"></i></button> 
 	</div>
+</div>
+<div class="row">
 	<div class="pagination" id="pagination-template">
-		<v-container>
 		<p class="pagination-item">第161 - 169筆/ 共169筆</p>
-		<button class="pagination-item" class="disabled"><i data-feather="chevron-left" class="enabled"></i></button>
-		<button class="pagination-item"><i data-feather="chevron-right" class="disabled"></i></button> 
-		</v-container>
+		<button class="pagination-item enabled"><i data-feather="chevron-left" class="enabled"></i></button>
+		<button class="pagination-item disabled"><i data-feather="chevron-right" class="disabled"></i></button> 
 	</div>
+</div>	
+</div>
 <script>
       feather.replace()
     </script>

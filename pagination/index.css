@@ -1,11 +1,12 @@
 .pagination{
   display:block;
   margin: 8 2 8 2;
+  margin-left:auto;
 }
 
 .pagination-item {
   display: flex;
-  float:left;
+  float:right;
   margin: 2px;
   padding: 2 0 2 0;
 }
@@ -32,7 +33,7 @@
   border-width: 0px;
 }
 
-.pagination button:hover{
+.pagination button.enabled:hover{
   background-color: #fafafa;
   border-radius: 3px;
 }
