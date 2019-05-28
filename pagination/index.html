@@ -8,29 +8,71 @@
 	<script src="index.js"></script>
 </head>	
 <body>
+
+<!-- insert a table as an example-->
+<div class="container">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- pagination for the first page -->
 <div class="container">
 <div class="row">
-	<div class="pagination" id="pagination-template">
+	<div class="col pagination" id="pagination-template">
 		<p class="pagination-item">第1 - 20筆/ 共169筆</p>
-		<button class="pagination-item disabled"><i data-feather="chevron-left" class="disabled"></i></button>
-		<button class="pagination-item enabled"><i data-feather="chevron-right" class="enabled"></i></button> 
+		<a href="" class="pagination-item disabled" role="button" aria-disabled="true"><i data-feather="chevron-left" class="disabled"></i></a>
+		<a href="" class="pagination-item enabled" role="button"><i data-feather="chevron-right" class="enabled"></i></a> 
 	</div>
 </div>
+
+<!-- pagination for the pages in the middle-->
 <div class="row">
-	<div class="pagination" id="pagination-template">
+	<div class="col pagination" id="pagination-template">
 		<p class="pagination-item">第21 - 40筆/ 共169筆</p>
-		<button class="pagination-item enabled" ><i data-feather="chevron-left" class="enabled"></i></button>
-		<button class="pagination-item enabled"><i data-feather="chevron-right" class="enabled"></i></button> 
+		<a href="" class="pagination-item enabled" role="button"><i data-feather="chevron-left" class="enabled"></i></a>
+		<a href="" class="pagination-item enabled" role="button"><i data-feather="chevron-right" class="enabled"></i></a> 
 	</div>
 </div>
+
+<!-- pagination for the last page-->
 <div class="row">
-	<div class="pagination" id="pagination-template">
+	<div class="col pagination" id="pagination-template">
 		<p class="pagination-item">第161 - 169筆/ 共169筆</p>
-		<button class="pagination-item enabled"><i data-feather="chevron-left" class="enabled"></i></button>
-		<button class="pagination-item disabled"><i data-feather="chevron-right" class="disabled"></i></button> 
-	</div>
+		<a href="" class="pagination-item enabled" role="button"><i data-feather="chevron-left" class="enabled"></i></a>
+		<a href="" class="pagination-item disabled" role="button" aria-disabled="true"><i data-feather="chevron-right" class="disabled"></i></a> 
+
 </div>	
 </div>
+</div>
+
+<!-- feathericon: chevron-left & chevron-right--> 
 <script>
       feather.replace()
     </script>

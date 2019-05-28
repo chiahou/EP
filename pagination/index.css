@@ -1,7 +1,6 @@
 .pagination{
-  display:block;
   margin: 8 2 8 2;
-  margin-left:auto;
+  justify-content: flex-end;
 }
 
 .pagination-item {
@@ -28,14 +27,18 @@
 
 }
 
-.pagination button {
+.pagination a {
   background-color:none;
   border-width: 0px;
 }
 
-.pagination button.enabled:hover{
+.pagination a.enabled:hover{
   background-color: #fafafa;
   border-radius: 3px;
+}
+
+.pagination a.disabled:hover{
+  cursor:default;
 }
 
 
