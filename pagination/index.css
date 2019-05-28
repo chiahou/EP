@@ -1,0 +1,40 @@
+.pagination{
+  display:block;
+  margin: 8 2 8 2;
+}
+
+.pagination-item {
+  display: flex;
+  float:left;
+  margin: 2px;
+  padding: 2 0 2 0;
+}
+
+.pagination p{
+  text-align: center;
+  line-height: 24px;
+  color: #999999;
+  font-weight:200;
+  font-size: 14px;
+}
+
+
+#pagination-template .disabled{
+  color: #cccccc;
+}
+#pagination-template .enabled {
+  color: #333333;
+
+}
+
+.pagination button {
+  background-color:none;
+  border-width: 0px;
+}
+
+.pagination button:hover{
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+
+
