@@ -4,20 +4,32 @@
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/a66f71007f.js"></script>
     <style>
+      h2{
+        font-family: MicrosoftJhengHei;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        color: #555555;
+      }
+
       p{
-        color:#555555;font-size:14px;
         margin-left:16px;
+        font-family: MicrosoftJhengHei;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        color: #555555;
       }
       ul{
         list-style-type: none;
       }
       li{
         display:flex;
-        vertical-align: middle;
+        align-items: center;
         margin-top: 16px;
       }
       span{
-        width:2rem;
+        width:30px;
       }
 
       .media-line{
@@ -42,7 +54,7 @@
 
   <body>
     <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
-
+<h2>我要分享至</h2>
     <ul id="social-share">
       <li v-for="item in medias" >
         <span v-bind:class="item.style">
