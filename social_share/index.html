@@ -6,7 +6,7 @@
     <style>
       p{
         color:#555555;font-size:14px;
-        margin-left:1rem;
+        margin-left:16px;
       }
       ul{
         list-style-type: none;
@@ -19,41 +19,53 @@
       span{
         width:2rem;
       }
+
+      .media-line{
+        font-size:2rem;
+        color:#00c300;
+      }
+      .media-messenger{
+        font-size:2rem;
+        color:#0084ff;
+      }
+      .media-facebook{
+        font-size:2rem;
+        color:#1976f2;
+      }
+      .media-copy{
+        font-size:2rem;
+        color:#999999;
+      }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   </head>
 
   <body>
     <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
 
-    <ul>
-      <li>
-        <span style="font-size:2rem; color:#00c300">
-        <i class="fab fa-line"></i>
+    <ul id="social-share">
+      <li v-for="item in medias" >
+        <span v-bind:class="item.style">
+        <i v-bind:class="item.name"></i>
         </span>
-        <p>Line</p>
+        <p>{{item.text}}</p>
       </li>
-      <li>
-        <span style="font-size:2rem; color:#0084ff">
-          <i class="fab fa-facebook-messenger"></i>
-        </span>
-        <p>Messenger</p>
-      </li>
-      <li>
-        <span style="font-size:2rem; color:#1976f2">
-          <i class="fab fa-facebook"></i>
-        </span>
-        <p>Facebook</p>
-      </li>
-      <li>
-        <span style="font-size:2rem; color:#999999; ">
-          <i class="fa fa-copy"></i> 
-        </span>
-        <p>複製連結</p>
-      </li>
+      
     </ul>
 
-
-
+      <script>
+       var example = new Vue({
+          el: '#social-share',
+          data:{
+            medias:[
+            {id:0, name:"fab fa-line", text:"Line", style:"media-line"},
+            {id:1, name:"fab fa-facebook-messenger", text:"Messenger", style:"media-messenger"},
+            {id:2, name:"fab fa-facebook", text:"Facebook", style:"media-facebook"},
+            {id:3, name:"fa fa-copy", text:"複製連結", style:"media-copy"},
+            ]
+          }
+        })
+      </script>
 
 
 </body>
