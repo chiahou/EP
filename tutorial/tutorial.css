@@ -65,35 +65,35 @@ color: #333333;
 .t-step1{
 border-color: #999999;
 color: #999999;
-animation: changecolor 8s infinite;
-animation-delay: 0s;
+animation: changecolor 9s infinite;
+animation-delay: 1s;
 animation-fill-mode: forwards;
 }
 .t-step2{
 border-color: #999999;
 color: #999999;
-animation: changecolor 8s infinite;
-animation-delay: 1s;
+animation: changecolor 9s infinite;
+animation-delay: 2s;
 animation-fill-mode: forwards;
 }
 .t-step3{
 border-color: #999999;
 color: #999999;
-animation: changecolor 8s infinite;
-animation-delay: 2s;
+animation: changecolor 9s infinite;
+animation-delay: 3s;
 animation-fill-mode: forwards;
 }
 .t-step4{
 border-color: #999999;
 color: #999999;
-animation: changecolor 8s infinite;
-animation-delay: 3s;
+animation: changecolor 9s infinite;
+animation-delay: 4s;
 animation-fill-mode: forwards;
 }
 .t-step5{	border-color: #999999;
 color: #999999;
-animation: changecolor 8s infinite;
-animation-delay:4s;
+animation: changecolor 9s infinite;
+animation-delay:5s;
 animation-fill-mode: forwards;
 }
 
@@ -149,7 +149,7 @@ right: 16px;
 
 .bounce{
 	animation: bounce 3s infinite;
-	animation-delay: 0s;
+	animation-delay: 0;
 }
 
 @keyframes bounce{
