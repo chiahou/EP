@@ -17,13 +17,19 @@ display:block;
 color:#555555;
 }
 
+.highlight{
+    font-weight: medium;
+    color: #111111;
+}
+
 .small{
     font: 12px;
     margin-right: 16px;
 }
 
+
 .bg-col{
-    height:250px;
+    height:200px;
 }
 .t-view{
 	border: 1px solid #d4d4d4;
@@ -160,10 +166,10 @@ right: 16px;
 }
 
 @keyframes bounce{
-	0%   { transform: scale(1.08); }
-    10%  { transform: scale(1.0); }
-    20% { transform: scale(1.08);}
-    30%  { transform: scale(1.0); }
+	0%   { transform: scale(1.0); }
+    10%  { transform: scale(1.08); }
+    20% { transform: scale(1.0);}
+    30%  { transform: scale(1.08); }
     40% {transform:scale(1.0);}
 }
 
