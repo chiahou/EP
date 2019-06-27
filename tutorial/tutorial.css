@@ -17,7 +17,14 @@ display:block;
 color:#555555;
 }
 
+.small{
+    font: 12px;
+    margin-right: 16px;
+}
 
+.bg-col{
+    height:250px;
+}
 .t-view{
 	border: 1px solid #d4d4d4;
 	border-radius: 3px;
@@ -30,7 +37,8 @@ color:#555555;
 .item-center{
 display:flex;
 justify-content: center;
-align-items: center;
+align-content: center;
+align-items:center;
 }
 .inline-block{
 display:inline-block;
@@ -108,7 +116,6 @@ animation-fill-mode: forwards;
 	color: #bf0000;
 	border: 1px solid #bf0000;
 	border-radius: 3px;
-	margin-top:10%;
 }
 
 .t-btn-primary:hover{
@@ -148,15 +155,38 @@ right: 16px;
 }
 
 .bounce{
-	animation: bounce 3s infinite;
-	animation-delay: 0;
+	animation: bounce 2s infinite;
+	animation-delay: 0.5s;
 }
 
 @keyframes bounce{
-	0%   { transform: scale(1.0); }
-    10%  { transform: scale(1.08); }
-    20% { transform: scale(1.0);}
-    30%  { transform: scale(1.08); }
+	0%   { transform: scale(1.08); }
+    10%  { transform: scale(1.0); }
+    20% { transform: scale(1.08);}
+    30%  { transform: scale(1.0); }
     40% {transform:scale(1.0);}
 }
 
+.movein1{
+    opacity: 0;
+    animation-name: movein;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-interation-count: 1;
+    animation-fill-mode: forwards;
+}
+.movein2{
+    opacity: 0;
+    animation-name: movein;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-interation-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay:1s;
+}
+@keyframes movein{
+    0% {transform: translateX(-120px); opacity:0}
+    50% {transform: translateX(-100px); opacity:0}
+    75% {transform: translateX(-60px);opacity:0.3}
+    100% {transform: translateX(0px); opacity:1}
+}
