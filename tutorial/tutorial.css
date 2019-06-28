@@ -4,17 +4,34 @@ font-family: 微軟正黑體;
 padding-top: 60px;
 }
 h3{
-text-align:center;
 margin-bottom: 36px;
 display:block;
 color:#555555;
 }
 p{
-text-align:center;
 padding-top:16px;
 margin-bottom:36px;
 display:block;
 color:#555555;
+}
+
+img{
+    width:100%;
+    object-fit: contain;
+}
+
+.text-center{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.text-left{
+    text-align:left;
+    vertical-align:middle;
+}
+
+.text-right{
+    text-align:right;
 }
 
 .highlight{
@@ -27,16 +44,24 @@ color:#555555;
     margin-right: 16px;
 }
 
+.margin-top{
+    margin-top:20px;
+}
 
-.bg-col{
-    height:200px;
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+.col-desc{
+    vertical-align:middle;
 }
 .t-view{
 	border: 1px solid #d4d4d4;
 	border-radius: 3px;
-	padding: 36px;
-	height: 90%;
-	position:relative;
+	padding-top:8px;
+	height: 95%;
+    position:relative;
+    overflow-y: scroll;
 }
 
 
@@ -195,4 +220,16 @@ right: 16px;
     50% {transform: translateX(-100px); opacity:0}
     75% {transform: translateX(-60px);opacity:0.3}
     100% {transform: translateX(0px); opacity:1}
+}
+
+.delay{
+    opacity: 0;
+    animation: delay 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes delay{
+    from {opacity:0;}
+    to {opacity:1;}
 }
