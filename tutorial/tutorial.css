@@ -10,7 +10,6 @@ color:#555555;
 }
 p{
 padding-top:16px;
-margin-bottom:36px;
 display:block;
 color:#555555;
 }
@@ -46,6 +45,10 @@ img{
 
 .margin-top{
     margin-top:20px;
+}
+
+.margin-left{
+    margin-left:16px;
 }
 
 .img-center{
