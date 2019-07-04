@@ -21,13 +21,12 @@
 
 		.circle-loading{
 			background-color: none;
-			border-top: 2px dotted #999999;
+			border-top: 2px dotted #bf0000;
 			border-radius: 50%;
 			width: 90px;
 			height:90px;
 			animation: spin 2s infinite;
-			animation-delay: 0.5s;
-			animation-timing-function: ease-in-out;
+			animation-timing-function: linear;
 			animation-fill-mode: backwards;
 			position:relative;
 		}
@@ -36,8 +35,8 @@
 			
 		}
 		@keyframes spin{
-			from{transform: rotate(0deg); border-top: 2px dotted #999999;}
-			to{transform: rotate(-360deg); border-top: 2px dotted #bf0000;}
+			from{transform: rotate(0deg);}
+			to{transform: rotate(-360deg);}
 		}
 
 		</style>
