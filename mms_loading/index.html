@@ -3,26 +3,30 @@
 		<style>
 
 		p{
-			color:#333333;
+			color:#bf0000;
 			position:absolute;
 			margin: 0 auto;
-			font-weight: bold;
-			font-size:18px;
-
+			font-weight: 400;
+			font-size:16px;
+			font-family: Microsoft JhengHei;
 		}
-				.container-loading{
+		
+		.container-loading{
 			height:100%;
 			display:flex;
 			align-items: center;
 			justify-content:center;
 		}
+
+
 		.circle-loading{
 			background-color: none;
-			border-top: 4px solid #bf0000;
+			border-top: 2px dotted #999999;
 			border-radius: 50%;
-			width: 80px;
-			height:80px;
+			width: 90px;
+			height:90px;
 			animation: spin 2s infinite;
+			animation-delay: 0.5s;
 			animation-timing-function: ease-in-out;
 			animation-fill-mode: backwards;
 			position:relative;
@@ -32,16 +36,15 @@
 			
 		}
 		@keyframes spin{
-			from{transform: rotate(0deg); border-top: 4px solid #bf0000;}
-			to{transform: rotate(-360deg); border-top:4px solid #ee0000;}
+			from{transform: rotate(0deg); border-top: 2px dotted #999999;}
+			to{transform: rotate(-360deg); border-top: 2px dotted #bf0000;}
 		}
-
 
 		</style>
 	</head>
 	<body>
 		<div class="container-loading">
-			<p class="text-center">MMS</p>
+			<p class="text-center">請稍等</p>
 				<div class="col circle-loading">
 			</div>
 	</div>
