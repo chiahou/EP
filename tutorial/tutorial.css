@@ -22,6 +22,7 @@ img{
 .text-center{
     text-align:center;
     vertical-align:middle;
+    
 }
 
 .text-left{
@@ -55,9 +56,11 @@ img{
     display: block;
     margin: 0 auto;
 }
+
 .col-desc{
     vertical-align:middle;
 }
+
 .t-view{
 	border: 1px solid #d4d4d4;
 	border-radius: 3px;
