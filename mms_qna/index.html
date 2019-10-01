@@ -1,0 +1,102 @@
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<style>
+			.margin{
+				margin-top:50px;
+				margin-bottom:50px;
+			}
+			.img-md{
+				width:80%;
+			}
+			.center{
+				margin: auto;
+			}
+			.see-ptp:hover{
+				background-color: rgb(0,100,255);
+			}
+			.bold{
+				font-weight: 500;
+			}
+
+		</style>
+		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					
+					<h1 class="lead text-center margin bold">
+						MMS - Q&A Game Design
+					</h1>
+
+					<img src="Step3_Quiz_Start_Default.png" class="mx-auto img-md d-block">
+					<a href="prototypes.html" target="_blank"><button type="button" class="btn btn-primary btn-sm see-ptp" style="position: absolute; right:0px; bottom: 0px; box-shadow: -2px 3px 2px 1px rgba(11,11,11,0.4);">
+						See Prototypes <i data-feather="external-link"></i>
+					</button></a>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					
+					<div class="accordion margin" id="accordionUserflows">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">
+										Flow 1: 使用者編輯Section 1 問題與得分
+									</button>
+								</h2>
+							</div>
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionUserflows">
+								<div class="card-body">
+									<img src="Flow1_Section1.png" class="mx-auto d-block img-md">
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo">
+										Flow 2: Flow 2: 使用者編輯完Section 1，開始編輯Section 2 結果與獎品
+									</button>
+								</h2>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionUserflows">
+								<div class="card-body">
+									<img src="Flow2_Section1toSection2.png" class="mx-auto d-block img-md">
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree">
+										Flow 3：使用者編輯完Section 2，回到Section 1查看編輯
+									</button>
+								</h2>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionUserflows">
+								<div class="card-body">
+									<img src="Flow3_Section2toSection1.png" class="mx-auto d-block img-md">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<script>
+  feather.replace({ class: 'foo bar', 'stroke-width': 2 })
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+
+</html>
