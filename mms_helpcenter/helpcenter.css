@@ -1,0 +1,87 @@
+body {
+position: relative;
+font-weight: 200;
+}
+h4{
+color: #555555;
+font-weight: 400;
+margin-bottom: 16px;
+}
+li{
+	line-height: 30px;
+}
+li, a{
+color: #555555;
+}
+nav li:hover, a:hover{
+color: #bf0000;
+font-weight: 400;
+}
+.navbar-brand{
+font-weight: 400;
+}
+.navbar{
+background: #e9e9e9;
+box-shadow: 0px 1px 1px 1px rgba(110,110,110,0.5);
+}
+.nav-link{
+color: #bf0000;
+}
+.nav-pills .nav-link.active{
+font-weight: 400;
+background-color: #bf0000;
+}
+.supplement{
+color: #999999;
+}
+.supplement:hover{
+color: #999999;
+font-weight: 400;
+}
+.section{
+padding-top: 60px;
+padding-bottom: 100px;
+}
+.removed{
+display: none;
+}
+
+.title{
+color: #333333;
+font-weight:400;
+padding: 0px 4px;
+}
+.title::before{
+	content:"【";
+}
+.title::after{
+	content:"】";
+}
+.link{
+	color:#0055ac;
+	text-decoration: underline;
+	padding: 0px 4px;
+}
+.primary-button{
+	color: #ffffff;
+	background-color: #bf0000;
+	font-size: 0.9rem;
+	font-weight: 400;
+	border-radius: 4px;
+	padding: 2px 16px;
+	margin: 0px 4px;
+}
+.secondary-button{
+	color: #333333;
+	background-color: #ffffff;
+	border: 1px #999999;
+	font-size: 0.9rem;
+	font-weight: 400;
+	border-radius: 4px;
+	padding: 2px 16px;
+	margin: 0px 4px;
+}
+.oi{
+	margin: 0px 4px;
+	color: #999999;
+}
