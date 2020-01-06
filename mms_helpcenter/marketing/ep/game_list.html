@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" href="tab_logo.png">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- my css -->
+		<link rel="stylesheet" href="../../helpcenter.css">
+		<!--iconic-->
+		<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+		<!--feather-->
+		<script src="https://unpkg.com/feather-icons"></script>
+		<title>MMS Help Center</title>
+		<script type="text/javascript">
+		$('body').scrollspy({ target: '#navbar-example' })
+		</script>
+	</head>
+	<body>
+		<nav id="navbar-example" class="navbar navbar-light bg-light fixed-top">
+			<a class="navbar-brand" href="../../index.html"><img src="../../tab_logo.png" style="height:30px; margin: 0px 4px">店家服務擴充中心</a>
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#step1">遊戲狀態</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#step2">付費</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#step3">退費</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link supplement" href="#reference">文件下載</a>
+				</li>
+			</ul>
+		</nav>
+		<div data-spy="scroll" data-target="#navbar-example" data-offset="100" style="position:relative; padding:32px; height:900px; overflow-y: scroll">
+			<!-- About Sections - There are 4 elements in the descriptive section, which are:
+				1. <span class="oi oi-browser" title="browser" aria-hidden="true">Page Name</span>
+				2. <span class="title">Title</span>
+				3. <span class="primary-button">Button Name</span>
+			4. <span class="link">Link</span> -->
+			<div class="section-title">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+						<li class="breadcrumb-item"><a href="../ep.html">樂遊戲</a></li>
+						<li class="breadcrumb-item active" aria-current="page">新增遊戲</li>
+					</ol>
+				</nav>
+				<h3>遊戲列表</h3>
+			</div>
+			<div class="section" id="step1">
+				<h4>遊戲狀態</h4>
+				<ol>
+					<li><span class="title">草稿</span></li>
+					<li><span class="title">完成編輯</span>完成編輯後不得再進行修改</li>
+					<li><span class="title">完成付費</span>若要退費請查看<a href="#step3">退費</a></li>
+					<li><span class="title">已退費</span></li>
+					<li><span class="title">待上線</span></li>
+					<li><span class="title">上線中</span></li>
+					<li><span class="title">已下線</span></li>
+				</ol></div>
+				<div class="section" id="step2">
+					<h4>付費</h4>
+					<ol>
+						<li>網頁入口
+							<ol style="list-style-type: lower-alpha;">
+								<li>路徑1
+									<ol style="list-style-type: lower-roman;">
+										<li>在新增遊戲流程/編輯遊戲流程到 網頁-步驟5 完成</li>
+										<li>點擊 按鈕-開啟遊戲，顯示 彈窗-付費提醒</li>
+										<li href="#note1">點擊<span class="primary-button">確定付費</span>
+										<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+									</li>
+									<div class="col">
+										<div class="collapse multi-collapse" id="note1">
+											<div class="collapse-body">
+												點擊確定付費後會做以下判斷 :
+												<ul style="list-style-type: disc;">
+													<li>判斷活動開始日是否晚於目前時間+24小時</li>
+													<li>獎品生效時間是否晚於或等於活動開始日</li>
+													<li>獎品失效時間是否晚於活動結束日+24小時</li>
+													<li>商店是否已啟用。
+													如果上述情況皆有符合，會將網頁導至 網頁-付款頁；若有不符合，會顯示 彈窗 並告知如何做後續處理。</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</ol>
+							</li>
+							<li>路徑2
+								<ol style="list-style-type: lower-roman">
+									<li>在 網頁-遊戲列表 的 列表-遊戲列表<span class="primary-button">付費開啟</span>
+									<a class="toggle-button" data-toggle="collapse" href="#note2" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>，網頁導到 網頁-步驟5 完成
+								</li>
+								<div class="col">
+									<div class="collapse multi-collapse" id="note2">
+										<div class="collapse-body">當遊戲狀態為「完成編輯」時才會顯示 按鈕-付費開啟
+										</div>
+									</div>
+								</div>
+								<li>點擊 按鈕-開啟遊戲，顯示 彈窗-付費提醒</li>
+								<li>點擊 按鈕-確定付費</li>
+							</ol>
+						</li>
+					</ol>
+				</li>
+				<li>介面說明
+					<ol style="list-style-type: lower-alpha;">
+						<li>第一層標題：<span class="title">付款</span></li>
+						<li>第二層標題：<span class="title">信用卡資訊</span></li>
+						<li>第三層標題：<span class="title">卡片詳細資料</span></li>
+						<li>信用卡卡號：在<span class="title">信用卡卡號</span>輸入信用卡卡號
+						<a class="toggle-button" data-toggle="collapse" href="#note3" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+						<div class="col">
+							<div class="collapse collapse-body" id="note3">
+								<ul style="list-style-type: disc;">
+									<li><span class="title">信用卡卡號</span> 預設顯示 範例「1234-5678-9012-1234」</li>
+									<li>輸入錯誤的信用卡卡號時會在<span>信用卡卡號</span>下方顯示 錯誤訊息「請輸入有效的 信用卡卡號」</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>持卡人姓名 : 在<span class="title">持卡人姓名</span> 輸入持卡人姓名
+					<a class="toggle-button" data-toggle="collapse" href="#note4" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+				</li>
+				<div class="col">
+					<div class="collapse collapse-body" id="note4">
+						<ul style="list-style-type: disc;">
+							<li><span class="title">持卡人姓名</span>下方有 提醒文字「如果使用台灣發行的信用卡付款，請用中文輸入持卡人姓名</li>
+							<li>輸入不符合格式的持卡人姓名時會在<span class="title">持卡人姓名</span>下方顯示 錯誤訊息「請僅使用字母 (半形或全形)、數字 (0-9)、空格和下列特殊字元: ' . -」</li>
+						</ul>
+					</div>
+				</div>
+				
+			</li>
+			<li>信用卡有效期限 : 在 下拉選單-月、下拉選單-年 選擇信用卡的有效期限
+				<ol style="list-style-type: lower-roman">
+					<li>選擇錯誤的信用卡有效期限時會在下拉選單-月、下拉選單-年 下方顯示 錯誤訊息「請輸入有效的 信用卡有效期限。」</li>
+				</ol>
+			</li>
+			<li>安全碼 : 在【安全碼】欄位 輸入信用卡安全碼
+				<a class="toggle-button" data-toggle="collapse" href="#note5" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+			</li>
+			<div class="col">
+				<div class="collapse collapse-body" id="note5">
+					<ul style="list-style-type: disc;">
+						<li>【安全碼】欄位 右側有一圖示，滑鼠指標移動到這會顯示 tooltips-安全碼說明 </li>
+						<li>輸入不符合格式的安全碼時會在【安全碼】欄位 下方顯示 錯誤訊息「請輸入有效的 安全碼。」</li>
+					</ul>
+				</div>
+			</div>
+			
+		</li>
+		<li>第二層標題 : 【發票資訊 (資料同合約內容，不得自行變更)】</li>
+		<li>發票類別 : 選擇發票類別
+			<a class="toggle-button" data-toggle="collapse" href="#note6" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+		</li>
+		<div class="col">
+			<div class="collapse multi-collapse" id="note6">
+				<div class="collapse-body">目前僅有 選項-三聯 可選擇，日後會提供其他選擇
+				</div>
+			</div>
+		</div>
+		<li>統一編號 :【統一編號】欄位 自動帶入店家登記的統一編號，而且不可編輯</li>
+		<li>發票抬頭 :【發票抬頭】欄位 自動帶入店家登記的發票抬頭，而且不可編輯</li>
+		<li>按鈕-取消 : 點擊後顯示 彈窗-取消付款確認
+			<ol style="list-style-type: lower-roman">
+				<li>彈窗-取消付款確認
+					<ul style="list-style-type: disc;">
+						<li>內文 : 「你是否要取消付款？」</li>
+						<li>按鈕-否 : 點擊後關閉 彈窗-取消付款確認</li>
+						<li>按鈕-是，我要取消 : 點擊後關閉 彈窗-取消付款確認 並將網頁導到 網頁-遊戲列表</li>
+					</ul>
+				</li>
+			</ol>
+		</li>
+		<li>按鈕-付款 : 當所有欄位皆有資料後，點擊後開始執行付款動作
+			<ol style="list-style-type: lower-roman">
+				<li>若付款失敗，將網頁導至 網頁-付款失敗頁</li>
+				<li>若付款成功，將網頁導至 網頁-付款成功頁</li>
+			</ol>
+		</li>
+	</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="step3">
+<h4>退費</h4>
+<ol>
+<li>入口：網頁-遊戲列表</li>
+<li>前置條件：
+	<ol style="list-style-type: lower-alpha;">
+		<li>目前時間必須在遊戲開始時間前10分鐘之前</li>
+		<li>遊戲狀態為付費完成/待上線</li>
+	</ol>
+</li>
+<li>操作步驟
+	<ol style="list-style-type: lower-alpha;">
+		<li>開啟 網頁-遊戲列表</li>
+		<li>點擊 列表-遊戲列表 中欲退費遊戲的【付費操作】欄位 內的 按鈕-取消退費，顯示 彈窗-取消活動並退款確認</li>
+		<li>在【取消活動原因】欄位 輸入取消活動的原因
+			<a class="toggle-button" data-toggle="collapse" href="#note7" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+		</li>
+		<div class="col">
+			<div class="collapse multi-collapse" id="note7">
+				<div class="collapse-body">【取消活動原因】為必填欄位，最多可輸入100個字
+				</div>
+			</div>
+		</div>
+		<li>點擊 按鈕-進行退款，顯示 彈窗-退款成功<a class="toggle-button" data-toggle="collapse" href="#note8" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a></li>
+		<div class="col">
+			<div class="collapse multi-collapse" id="note8">
+				<div class="collapse-body">【取消活動原因】尚未輸入任何字時 按鈕-進行退款 無法點
+				</div>
+			</div>
+			<li>點擊 按鈕-知道了，關閉所有彈窗</li>
+			<li>欲退費遊戲的 【付費操作】欄位 沒有顯示 按鈕-取消退費，【遊戲狀態】欄位 也變更為「已退費」</li>
+		</ol>
+	</li>
+</ol>
+</div>
+<div class="section" id="reference">
+<h4>文件下載</h4>
+<ol>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
+</div>
+</div>
+<!-- Optional JavaScript -->
+<!--feather icon-->
+<script>
+feather.replace()
+</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

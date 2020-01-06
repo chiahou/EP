@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" href="tab_logo.png">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- my css -->
+		<link rel="stylesheet" href="../../helpcenter.css">
+		<!--iconic-->
+		<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+		<!--feather-->
+		<script src="https://unpkg.com/feather-icons"></script>
+		<title>MMS Help Center</title>
+		<script type="text/javascript">
+		$('body').scrollspy({ target: '#navbar-example' })
+		</script>
+	</head>
+	<body>
+		<nav id="navbar-example" class="navbar navbar-light bg-light fixed-top">
+			<a class="navbar-brand" href="../../index.html"><img src="../../tab_logo.png" style="height:30px; margin: 0px 4px">店家服務擴充中心</a>
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#step1">全站遊戲數據頁</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#step2">個別遊戲數據頁</a>
+				</li>
+				<li class="nav-item removed">
+					<a class="nav-link supplement" href="#reference">文件下載</a>
+				</li>
+			</ul>
+		</nav>
+		<div data-spy="scroll" data-target="#navbar-example" data-offset="100" style="position:relative; padding:32px; height:900px; overflow-y: scroll">
+			<div class="section-title">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+						<li class="breadcrumb-item"><a href="../ep.html">樂遊戲</a></li>
+						<li class="breadcrumb-item active" aria-current="page">數據報表</li>
+					</ol>
+				</nav>
+				<h3>數據報表</h3>
+			</div>
+			<div class="section" id="step1">
+				<h4>全站遊戲數據頁</h4>
+				<ol>
+					<li>在 網頁-遊戲列表頁 點擊 Link-全站數據 或是點擊 左側Sidebar-加值行銷>遊戲平台 中的 Link-數據報表 進入 網頁-全站遊戲數據頁</li>
+					<li>標題：Label-全站遊戲數據</li>
+					<li>店家名稱：顯示店家名稱</li>
+					<li>次標題：Label-遊戲與獎品</li>
+					<li>遊戲流量：<span class="title">上線中遊戲數</span>、<span class="title">已下線遊戲數</span>、<span class="title">總造訪次數</span>、<span class="title">總造訪人數</span>等資訊</li>
+					<li>遊戲列表 : 顯示上線中、已下線的遊戲資料，顯示的資料欄位為【遊戲狀態】欄位、【遊戲名稱】欄位、【活動時間】欄位、【造訪次數】欄位、【造訪人數】欄位、【獎品總數】欄位、【未領取獎品數】欄位、【已領取獎品數】欄位、【獎品流向統計-自己領取】欄位、【獎品流向統計-贈送他人】欄位
+						<ol style="list-style-type: lower-roman">
+							<li>【遊戲狀態】欄位、【遊戲名稱】欄位 是固定顯示，其他欄位可以左右滑動來檢視</li>
+							<li>欲察看個別遊戲的數據統計，可點擊欲察看的遊戲列任一位置，將另開新分頁並導到該遊戲的 網頁-個別遊戲數據頁</li>
+							<li>Table-遊戲列表 一次顯示10筆資料，超過10筆資料可點擊 Link-上一頁、Link-下一頁 切換顯示</li>
+							<li>Table-遊戲列表 的排序規則是依照活動開始時間降冪排序</li>
+						</ol>
+					</li>
+				</ol>
+			</div>
+			<div class="section" id="step2">
+				<h4>個別遊戲數據頁</h4>
+				<ol>
+					<li>在 網頁-遊戲列表頁 中點擊功能欄位中的 按鈕-遊戲數據統計 或是在 網頁-全站遊戲數據頁 中點擊欲察看的遊戲列進入 網頁-個別遊戲數據頁</li>
+					<li>標題 : Label-個別遊戲數據</li>
+					<li>遊戲名稱 : 顯示目前察看的遊戲名稱</li>
+					<li>遊戲活動檔期 : 顯示遊戲的開始日期與結束日期</li>
+					<li>區塊切換 : 依遊戲類型不同會顯示不一樣的切換按鈕。轉盤遊戲僅顯示 按鈕-遊戲表現分析；而問答遊戲則會顯示 按鈕-遊戲表現分析、按鈕-作答結果分析，點擊可切換顯示不同的網頁
+						<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+					</li>
+					<div class="row">
+						<div class="collapse multi-collapse" id="note1">
+							<div class="collapse-body">問答遊戲預設顯示 網頁-遊戲表現分析頁
+							</div>
+						</div>
+					</div>
+					<li>網頁-遊戲表現分析頁
+						<ol style="list-style-type: lower-roman">
+							<li>標題1 : 「遊戲造訪」</li>
+							<li>遊戲造訪統計 : 提供【總造訪次數】欄位、【總造訪人數】欄位、曲線圖 等資訊
+								<ol>
+									<li>曲線圖 有提供 下拉選單-數據顯示區間，可選擇【近7天】選項、【近30天】選項、【近90天】選項、【總活動期間】選項 來顯示區間統計資料</li>
+									<li>曲線圖 預設數據顯示區間為【近7天】選項</li>
+									<li>滑鼠指標停在曲線上會顯示當天的統計資料</li>
+								</ol>
+							</li>
+							<li>標題2 : Label-獎品兌換</li>
+							<li>獎品兌換列表 : 顯示所有獎品的詳細資料，顯示的資料欄位為 【獎品名稱】欄位、【獎品類型】欄位、【獎品總數】欄位、【未領取獎品數】欄位、【已領取獎品數】欄位、【獎品流向統計-自己領取】欄位、【獎品流向統計-贈送他人】欄位
+								<a class="toggle-button" data-toggle="collapse" href="#note2" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+							</li>
+							<div class="row">
+						<div class="collapse multi-collapse" id="note2">
+							<div class="collapse-body">資料排序是依照建立遊戲時新增獎品項目的順序顯示
+							</div>
+						</div>
+					</div>
+						</ol>
+					</li>
+				</ol>
+			</div>
+			<div class="section removed" id="reference">
+				<h4>文件下載</h4>
+				<ol>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+		</div>
+		<!-- Optional JavaScript -->
+		<!--feather icon-->
+		<script>
+		feather.replace()
+		</script>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
