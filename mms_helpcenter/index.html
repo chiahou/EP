@@ -22,7 +22,7 @@
 	<body>
 		<!-- Navbar-->
 		<nav id="navbar-example" class="navbar navbar-light bg-light fixed-top">
-			<a class="navbar-brand" href="mms_help_center.html"><img src="tab_logo.png" style="height:30px; margin: 0px 4px">店家服務擴充中心</a>
+			<a class="navbar-brand" href="index.html"><img src="tab_logo.png" style="height:30px; margin: 0px 4px">店家服務擴充中心</a>
 			<ul class="nav nav-pills">
 				<li class="nav-item">
 					<a class="nav-link" href="#sec1">服務介紹</a>
@@ -44,15 +44,52 @@
 				2. <span class="title">Title</span>
 				3. <span class="primary-button">Button Name</span>
 			4. <span class="link">Link</span> -->
+			<div class="section-title">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb hidden">
+						<li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+						<li class="breadcrumb-item"><a href="../ep/index.html"></a></li>
+						<li class="breadcrumb-item active" aria-current="page"></li>
+					</ol>
+				</nav>
+				<h3>使用指南</h3>
+			</div>
 			<!-- section1 -->
-			<div class="list-group section" id="sec1">
-				<h4>服務說明</h4>
-				<a href="mms_login.html" class="list-group-item list-group-item-action">
-					帳號登入
-				</a>
-				<a href="mms_home.html" class="list-group-item list-group-item-action">入口頁</a>
-				<a href="#" class="list-group-item list-group-item-action">樂遊戲</a>
-				<a href="mms_user_mgmt.html" class="list-group-item list-group-item-action">使用者管理</a>
+			<div class="section" id="sec1">
+				<!--card group-->
+				<div class="card-deck" id="sec1">
+					<!--card-->
+					<div class="card bg-light mb-3">
+						<a href="mms_login.html" class="card-body">
+							<h5 class="card-title">帳號登入</h5>
+							<h6 class="card-subtitle mb-2 text-muted hidden">N/A</h6>
+							<p class="card-text">登入相關指南，包含首次登入、登入頁、忘記密碼、變更密碼</p>
+						</a>
+					</div>
+					<div class="card bg-light mb-3">
+						<a href="mms_home.html" class="card-body">
+							<h5 class="card-title">入口頁</h5>
+							<h6 class="card-subtitle mb-2 text-muted hidden">N/A</h6>
+							<p class="card-text">入口頁為登入後看到的功能選單頁</p>
+						</a>
+					</div>
+					<div class="card bg-light mb-3">
+						<a href="marketing/ep/creategame.html" class="card-body">
+							<h5 class="card-title">樂遊戲</h5>
+							<h6 class="card-subtitle mb-2 text-muted hidden">N/A</h6>
+							<p class="card-text">行銷工具中的樂遊戲，能讓你提升消費者黏著度與互動性</p>
+						</a>
+					</div>
+					<div class="card bg-light mb-3">
+						<a href="system_mgmt/user_mgmt.html" class="card-body">
+							<h5 class="card-title">使用者管理</h5>
+							<h6 class="card-subtitle mb-2 text-muted hidden">N/A</h6>
+							<p class="card-text">系統管理中的使用者管理能幫助你輕鬆管理團隊成員</p>
+						</a>
+					</div>
+					
+					
+				</div>
 			</div>
 			<!-- section2 -->
 			<div class="section" id="sec2">
