@@ -37,6 +37,12 @@ div li a:hover{
 	border: 1px solid rgba(0,85,172,1);
 	border-radius: 8px
 }
+footer{
+	background-color: #e9e9e9;
+	text-align:center;
+	color: #555555;
+	font-size:12px;
+}
 .card{
 	border-radius: 10px;
 	margin: 8px 8px;
@@ -158,4 +164,10 @@ padding: 0px 4px;
 
 .icon-sm{
 	width:16px;
+}
+
+@media screen and (max-width:640px){
+	.section-title{
+		margin-top: 80px;
+	};
 }

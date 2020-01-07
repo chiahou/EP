@@ -106,137 +106,135 @@
 								<li>點擊 按鈕-確定付費</li>
 							</ol>
 						</li>
-					</ol>
-				</li>
-				<li>介面說明
-					<ol style="list-style-type: lower-alpha;">
-						<li>第一層標題：<span class="title">付款</span></li>
-						<li>第二層標題：<span class="title">信用卡資訊</span></li>
-						<li>第三層標題：<span class="title">卡片詳細資料</span></li>
-						<li>信用卡卡號：在<span class="title">信用卡卡號</span>輸入信用卡卡號
-						<a class="toggle-button" data-toggle="collapse" href="#note3" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+						<li>介面說明
+							<ol style="list-style-type: lower-alpha;">
+								<li>第一層標題：<span class="title">付款</span></li>
+								<li>第二層標題：<span class="title">信用卡資訊</span></li>
+								<li>第三層標題：<span class="title">卡片詳細資料</span></li>
+								<li>信用卡卡號：在<span class="title">信用卡卡號</span>輸入信用卡卡號
+								<a class="toggle-button" data-toggle="collapse" href="#note3" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+								<div class="col">
+									<div class="collapse collapse-body" id="note3">
+										<ul style="list-style-type: disc;">
+											<li><span class="title">信用卡卡號</span> 預設顯示 範例「1234-5678-9012-1234」</li>
+											<li>輸入錯誤的信用卡卡號時會在<span>信用卡卡號</span>下方顯示 錯誤訊息「請輸入有效的 信用卡卡號」</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>持卡人姓名 : 在<span class="title">持卡人姓名</span> 輸入持卡人姓名
+							<a class="toggle-button" data-toggle="collapse" href="#note4" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+						</li>
 						<div class="col">
-							<div class="collapse collapse-body" id="note3">
+							<div class="collapse collapse-body" id="note4">
 								<ul style="list-style-type: disc;">
-									<li><span class="title">信用卡卡號</span> 預設顯示 範例「1234-5678-9012-1234」</li>
-									<li>輸入錯誤的信用卡卡號時會在<span>信用卡卡號</span>下方顯示 錯誤訊息「請輸入有效的 信用卡卡號」</li>
+									<li><span class="title">持卡人姓名</span>下方有 提醒文字「如果使用台灣發行的信用卡付款，請用中文輸入持卡人姓名</li>
+									<li>輸入不符合格式的持卡人姓名時會在<span class="title">持卡人姓名</span>下方顯示 錯誤訊息「請僅使用字母 (半形或全形)、數字 (0-9)、空格和下列特殊字元: ' . -」</li>
 								</ul>
 							</div>
 						</div>
 					</li>
-					<li>持卡人姓名 : 在<span class="title">持卡人姓名</span> 輸入持卡人姓名
-					<a class="toggle-button" data-toggle="collapse" href="#note4" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+					<li>信用卡有效期限 : 在 下拉選單-月、下拉選單-年 選擇信用卡的有效期限
+						<ol style="list-style-type: lower-roman">
+							<li>選擇錯誤的信用卡有效期限時會在下拉選單-月、下拉選單-年 下方顯示 錯誤訊息「請輸入有效的 信用卡有效期限。」</li>
+						</ol>
+					</li>
+					<li>安全碼 : 在【安全碼】欄位 輸入信用卡安全碼
+						<a class="toggle-button" data-toggle="collapse" href="#note5" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+					</li>
+					<div class="col">
+						<div class="collapse collapse-body" id="note5">
+							<ul style="list-style-type: disc;">
+								<li>【安全碼】欄位 右側有一圖示，滑鼠指標移動到這會顯示 tooltips-安全碼說明 </li>
+								<li>輸入不符合格式的安全碼時會在【安全碼】欄位 下方顯示 錯誤訊息「請輸入有效的 安全碼。」</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>第二層標題 : 【發票資訊 (資料同合約內容，不得自行變更)】</li>
+				<li>發票類別 : 選擇發票類別
+					<a class="toggle-button" data-toggle="collapse" href="#note6" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
 				</li>
 				<div class="col">
-					<div class="collapse collapse-body" id="note4">
-						<ul style="list-style-type: disc;">
-							<li><span class="title">持卡人姓名</span>下方有 提醒文字「如果使用台灣發行的信用卡付款，請用中文輸入持卡人姓名</li>
-							<li>輸入不符合格式的持卡人姓名時會在<span class="title">持卡人姓名</span>下方顯示 錯誤訊息「請僅使用字母 (半形或全形)、數字 (0-9)、空格和下列特殊字元: ' . -」</li>
-						</ul>
+					<div class="collapse multi-collapse" id="note6">
+						<div class="collapse-body">目前僅有 選項-三聯 可選擇，日後會提供其他選擇
+						</div>
 					</div>
 				</div>
-				
-			</li>
-			<li>信用卡有效期限 : 在 下拉選單-月、下拉選單-年 選擇信用卡的有效期限
-				<ol style="list-style-type: lower-roman">
-					<li>選擇錯誤的信用卡有效期限時會在下拉選單-月、下拉選單-年 下方顯示 錯誤訊息「請輸入有效的 信用卡有效期限。」</li>
-				</ol>
-			</li>
-			<li>安全碼 : 在【安全碼】欄位 輸入信用卡安全碼
-				<a class="toggle-button" data-toggle="collapse" href="#note5" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
-			</li>
-			<div class="col">
-				<div class="collapse collapse-body" id="note5">
-					<ul style="list-style-type: disc;">
-						<li>【安全碼】欄位 右側有一圖示，滑鼠指標移動到這會顯示 tooltips-安全碼說明 </li>
-						<li>輸入不符合格式的安全碼時會在【安全碼】欄位 下方顯示 錯誤訊息「請輸入有效的 安全碼。」</li>
-					</ul>
-				</div>
-			</div>
-			
-		</li>
-		<li>第二層標題 : 【發票資訊 (資料同合約內容，不得自行變更)】</li>
-		<li>發票類別 : 選擇發票類別
-			<a class="toggle-button" data-toggle="collapse" href="#note6" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
-		</li>
-		<div class="col">
-			<div class="collapse multi-collapse" id="note6">
-				<div class="collapse-body">目前僅有 選項-三聯 可選擇，日後會提供其他選擇
-				</div>
-			</div>
-		</div>
-		<li>統一編號 :【統一編號】欄位 自動帶入店家登記的統一編號，而且不可編輯</li>
-		<li>發票抬頭 :【發票抬頭】欄位 自動帶入店家登記的發票抬頭，而且不可編輯</li>
-		<li>按鈕-取消 : 點擊後顯示 彈窗-取消付款確認
-			<ol style="list-style-type: lower-roman">
-				<li>彈窗-取消付款確認
-					<ul style="list-style-type: disc;">
-						<li>內文 : 「你是否要取消付款？」</li>
-						<li>按鈕-否 : 點擊後關閉 彈窗-取消付款確認</li>
-						<li>按鈕-是，我要取消 : 點擊後關閉 彈窗-取消付款確認 並將網頁導到 網頁-遊戲列表</li>
-					</ul>
+				<li>統一編號 :【統一編號】欄位 自動帶入店家登記的統一編號，而且不可編輯</li>
+				<li>發票抬頭 :【發票抬頭】欄位 自動帶入店家登記的發票抬頭，而且不可編輯</li>
+				<li>按鈕-取消 : 點擊後顯示 彈窗-取消付款確認
+					<ol style="list-style-type: lower-roman">
+						<li>彈窗-取消付款確認
+							<ul style="list-style-type: disc;">
+								<li>內文 : 「你是否要取消付款？」</li>
+								<li>按鈕-否 : 點擊後關閉 彈窗-取消付款確認</li>
+								<li>按鈕-是，我要取消 : 點擊後關閉 彈窗-取消付款確認 並將網頁導到 網頁-遊戲列表</li>
+							</ul>
+						</li>
+					</ol>
+				</li>
+				<li>按鈕-付款 : 當所有欄位皆有資料後，點擊後開始執行付款動作
+					<ol style="list-style-type: lower-roman">
+						<li>若付款失敗，將網頁導至 網頁-付款失敗頁</li>
+						<li>若付款成功，將網頁導至 網頁-付款成功頁</li>
+					</ol>
 				</li>
 			</ol>
 		</li>
-		<li>按鈕-付款 : 當所有欄位皆有資料後，點擊後開始執行付款動作
-			<ol style="list-style-type: lower-roman">
-				<li>若付款失敗，將網頁導至 網頁-付款失敗頁</li>
-				<li>若付款成功，將網頁導至 網頁-付款成功頁</li>
-			</ol>
-		</li>
 	</ol>
-</li>
-</ol>
 </div>
 <div class="section" id="step3">
-<h4>退費</h4>
-<ol>
-<li>入口：網頁-遊戲列表</li>
-<li>前置條件：
-	<ol style="list-style-type: lower-alpha;">
-		<li>目前時間必須在遊戲開始時間前10分鐘之前</li>
-		<li>遊戲狀態為付費完成/待上線</li>
-	</ol>
-</li>
-<li>操作步驟
-	<ol style="list-style-type: lower-alpha;">
-		<li>開啟 網頁-遊戲列表</li>
-		<li>點擊 列表-遊戲列表 中欲退費遊戲的【付費操作】欄位 內的 按鈕-取消退費，顯示 彈窗-取消活動並退款確認</li>
-		<li>在【取消活動原因】欄位 輸入取消活動的原因
-			<a class="toggle-button" data-toggle="collapse" href="#note7" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+	<h4>退費</h4>
+	<ol>
+		<li>入口：網頁-遊戲列表</li>
+		<li>前置條件：
+			<ol style="list-style-type: lower-alpha;">
+				<li>目前時間必須在遊戲開始時間前10分鐘之前</li>
+				<li>遊戲狀態為付費完成/待上線</li>
+			</ol>
 		</li>
-		<div class="col">
-			<div class="collapse multi-collapse" id="note7">
-				<div class="collapse-body">【取消活動原因】為必填欄位，最多可輸入100個字
+		<li>操作步驟
+			<ol style="list-style-type: lower-alpha;">
+				<li>開啟 網頁-遊戲列表</li>
+				<li>點擊 列表-遊戲列表 中欲退費遊戲的【付費操作】欄位 內的 按鈕-取消退費，顯示 彈窗-取消活動並退款確認</li>
+				<li>在【取消活動原因】欄位 輸入取消活動的原因
+					<a class="toggle-button" data-toggle="collapse" href="#note7" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+				</li>
+				<div class="col">
+					<div class="collapse multi-collapse" id="note7">
+						<div class="collapse-body">【取消活動原因】為必填欄位，最多可輸入100個字
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<li>點擊 按鈕-進行退款，顯示 彈窗-退款成功<a class="toggle-button" data-toggle="collapse" href="#note8" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a></li>
-		<div class="col">
-			<div class="collapse multi-collapse" id="note8">
-				<div class="collapse-body">【取消活動原因】尚未輸入任何字時 按鈕-進行退款 無法點
-				</div>
-			</div>
-			<li>點擊 按鈕-知道了，關閉所有彈窗</li>
-			<li>欲退費遊戲的 【付費操作】欄位 沒有顯示 按鈕-取消退費，【遊戲狀態】欄位 也變更為「已退費」</li>
+				<li>點擊 按鈕-進行退款，顯示 彈窗-退款成功<a class="toggle-button" data-toggle="collapse" href="#note8" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a></li>
+				<div class="col">
+					<div class="collapse multi-collapse" id="note8">
+						<div class="collapse-body">【取消活動原因】尚未輸入任何字時 按鈕-進行退款 無法點
+						</div>
+					</div>
+					<li>點擊 按鈕-知道了，關閉所有彈窗</li>
+					<li>欲退費遊戲的 【付費操作】欄位 沒有顯示 按鈕-取消退費，【遊戲狀態】欄位 也變更為「已退費」</li>
+				</ol>
+			</li>
 		</ol>
-	</li>
-</ol>
+	</div>
+	<div class="section" id="reference">
+		<h4>文件下載</h4>
+		<ol>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
 </div>
-<div class="section" id="reference">
-<h4>文件下載</h4>
-<ol>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-</ol>
-</div>
-</div>
+		<!-- footer-->
+		<footer>© Rakuten, Inc.</footer>
 <!-- Optional JavaScript -->
 <!--feather icon-->
 <script>
