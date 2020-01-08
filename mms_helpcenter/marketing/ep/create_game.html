@@ -38,7 +38,7 @@
 					<a class="nav-link" href="#step5">第五步</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link supplement" href="#reference">文件下載</a>
+					<a class="nav-link supplement removed" href="#reference">文件下載</a>
 				</li>
 			</ul>
 		</nav>
@@ -47,7 +47,7 @@
 			<div class="section-title">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+						<li class="breadcrumb-item"><a href="../../index.html">主選單</a></li>
 						<li class="breadcrumb-item"><a href="../ep.html">樂遊戲</a></li>
 						<li class="breadcrumb-item active" aria-current="page">新增遊戲</li>
 					</ol>
@@ -120,19 +120,28 @@
 				<h4>第三步 - 遊戲設計</h4>
 				<nav>
 					<div class="nav nav-tabs" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#raffle" role="tab" aria-controls="nav-home" aria-selected="true">輪盤抽獎</a>
-						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#quiz" role="tab" aria-controls="nav-profile" aria-selected="false">心理測驗與知識王</a>
-						<!-- 		<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">刮刮樂</a> -->
+						<a class="nav-item nav-link active" id="nav-raffle-tab" data-toggle="tab" href="#raffle" role="tab" aria-controls="nav-raffle" aria-selected="true">輪盤抽獎</a>
+						<a class="nav-item nav-link" id="nav-quiz-tab" data-toggle="tab" href="#quiz" role="tab" aria-controls="nav-profile" aria-selected="false">心理測驗</a>
+						<a class="nav-item nav-link" id="nav-assessment-tab" data-toggle="tab" href="#assessment" role="tab" aria-controls="nav-assessment" aria-selected="false">知識王</a>
+						<a class="nav-item nav-link" id="nav-scratchoff-tab" data-toggle="tab" href="#scratchoff" role="tab" aria-controls="nav-scratchoff" aria-selected="false">刮刮樂</a> 
 					</div>
 				</nav>
 				<div class="tab-content marginBottom" id="nav-tabContent">
-					<div class="tab-pane fade show active" id="raffle" role="tabpanel" aria-labelledby="nav-home-tab">
+					<!--Raffle-->
+					<div class="tab-pane fade show active" id="raffle" role="tabpanel" aria-labelledby="nav-raffle-tab">
 						<ol>
-							<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率。（中獎機率可為 0，機率總和必須為 100%。系統預設為各獎項平均分配機率。）</li>
-							<li><span class="title">圖案樣式</span>選擇你喜歡的輪盤主題，亦可設定自己喜歡的配色</li>
+							<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率。
+								<ol style="list-style-type: lower-alpha;">
+									<li>中獎機率可為 0，機率總和必須為 100%。系統預設為各獎項平均分配機率</li>
+									<li>機率可設定至小數點後一位：xx.x%</li>
+									<li>僅能調整機率，不能新增、刪除選項</li>
+								</ol>
+							</li>
+							<li><span class="title">遊戲主題</span>選擇你喜歡的遊戲主題，亦可為輪盤設定自己喜歡的配色</li>
 						</ol>
 					</div>
-					<div class="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="nav-profile-tab">
+					<!--Quiz-->
+					<div class="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="nav-quiz-tab">
 						<ol>
 							<li><span class="title">測驗題目與得分</span>
 							<ol style="list-style-type: lower-alpha;">
@@ -157,6 +166,39 @@
 									<div class="collapse-body">
 										<ul style="list-style-type:disc">
 											<li>心理測驗：幫不同的分數區間設定不同的屬性、偏好或需求等，如 0~40 分的測驗結果為喜歡宅在家、41~70 分為喜歡出門逛街、71~100 分為喜歡戶外運動，可根據不同的測驗結果提供個性化的獎品</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<li>返回編輯題目 : 如需編輯題目，點擊 按鈕-返回編輯題目 導到 網頁-測驗題目與得分 即可編輯</li>
+							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊 按鈕-編輯結果分數 開啟 彈窗-編輯結果分數 即可編輯</li>
+						</ol>
+					</div>
+					<!--Assessment-->
+					<div class="tab-pane fade" id="assessment" role="tabpanel" aria-labelledby="nav-assessment-tab">
+						<ol>
+							<li><span class="title">測驗題目與得分</span>
+							<ol style="list-style-type: lower-alpha;">
+								<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
+								<li>新增題目：點擊 按鈕-+新增題目（題目上限為 100 個）</li>
+								<li>刪除題目：點擊欲刪除題目的左側 Icon-x</li>
+								<li>新增選項：點擊 按鈕-+新增選項（選項上限為 6 個）</li>
+								<li>刪除選項：點擊欲刪除選項的左側 Icon-x</li>
+								<li>設定好題目與得分，即可點擊 按鈕-設定結果 開啟 彈窗-編輯結果分數，開始編輯遊戲結果與分數</li>
+							</ol>
+						</li>
+						<li><span class="title">編輯結果分數</span>結果數量：點擊【你預計分成幾種結果】欄位中的 按鈕--/+ 設定結果數量，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
+						<li>分數區間：系統以<span class="title">等距分級</span>的方式幫你算出對應的分數區間，你亦可自行編輯</li>
+						<li>點擊 按鈕-看測驗結果 導至 網頁-測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 按鈕-返回編輯題目，繼續編輯 網頁-測驗題目與得分 的內容</li>
+						<li><span class="title">測驗結果與得分</span>
+						<ol>
+							<li>幫你的遊戲設定結果、結果描述、結果圖片以及獎品
+								<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+							</li>
+							<div class="col">
+								<div class="collapse multi-collapse" id="note1">
+									<div class="collapse-body">
+										<ul style="list-style-type:disc">
 											<li>知識王：可給予答對題數少、分數低者較少的優惠，反之獎勵高分者（即忠實粉絲）較好的獎品</li>
 										</ul>
 									</div>
@@ -166,9 +208,21 @@
 							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊 按鈕-編輯結果分數 開啟 彈窗-編輯結果分數 即可編輯</li>
 						</ol>
 					</div>
+					<!--Scratchoff-->
+					<div class="tab-pane fade" id="scratchoff" role="tabpanel" aria-labelledby="nav-scratchoff-tab">
+						<ol>
+							<li><span class="title">中獎機率</span>
+								<ol style="list-style-type: lower-alpha;">
+									<li>中獎機率可為 0，機率總和必須為 100%。系統預設為各獎項平均分配機率</li>
+									<li>機率可設定至小數點後一位：xx.x%</li>
+									<li>僅能調整機率，不能新增、刪除選項</li>
+								</ol>
+							</li>
+							<li><span class="title">刮刮樂主題</span>依照你的品牌風格，選擇一款適合你的刮刮樂主題。<br>我們也會不定期推出年節主題，讓你為即將到來的節慶打造專屬行銷活動！</li>
+						</ol>
+					</div>
 				</div>
 			</div>
-			<!-- <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div> -->
 			<!--step 4-->
 			<div class="section" id="step4">
 				<h4>第四步 - 預覽</h4>

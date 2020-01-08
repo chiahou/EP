@@ -47,6 +47,10 @@ footer{
 	border-radius: 10px;
 	margin: 8px 8px;
 }
+.card-subtitle{
+	font-size:14px;
+	color:#999999;
+}
 .navbar-brand{
 font-weight: 400;
 }
@@ -60,6 +64,9 @@ color: #bf0000;
 .nav-pills .nav-link.active{
 font-weight: 400;
 background-color: #bf0000;
+}
+.nav-tabs .nav-link.active{
+font-weight: 400;
 }
 .breadcrumb{
 	background-color: transparent;
