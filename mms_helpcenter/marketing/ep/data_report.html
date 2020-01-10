@@ -10,8 +10,8 @@
 		<!-- my css -->
 		<link rel="stylesheet" href="../../helpcenter.css">
 		<!--iconic-->
-		<link href="open-iconic/font/css/open-iconic.css" rel="stylesheet">
-		<link href="open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+		<link href="../../open-iconic/font/css/open-iconic.css" rel="stylesheet">
+		<link href="../../open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 		<!--feather-->
 		<script src="https://unpkg.com/feather-icons"></script>
 		<title>MMS Help Center</title>
@@ -59,7 +59,7 @@
 					<li>次標題：<span class="title">遊戲與獎品</span></li>
 					<li>遊戲流量：<span class="title">上線中遊戲數</span>、<span class="title">已下線遊戲數</span>、<span class="title">總造訪次數</span>、<span class="title">總造訪人數</span>等資訊</li>
 					<li>遊戲列表 : 顯示上線中、已下線的遊戲資料，顯示的資料欄位為<span class="title">遊戲狀態</span>、<span class="title">遊戲名稱</span>、<span class="title">活動時間</span>、<span class="title">造訪次數</span>、<span class="title">造訪人數</span>、<span class="title">獎品總數</span>、<span class="title">未領取獎品數</span>、<span class="title">已領取獎品數</span>、<span class="title">獎品流向統計-自己領取</span>、<span class="title">獎品流向統計-贈送他人</span>
-						<ol style="list-style-type: lower-roman">
+						<ol style="list-style-type: lower-alpha">
 							<li><span class="title">遊戲狀態</span>、<span class="title">遊戲名稱</span>是固定顯示，其他欄位可以左右滑動來檢視</li>
 							<li>欲察看個別遊戲的數據統計，可點擊欲察看的遊戲列任一位置，將另開新分頁並導到該遊戲的<span class="oi oi-browser" title="browser" aria-hidden="true">個別遊戲數據頁</span></li>
 							<li>遊戲數據列表中一次會顯示10筆資料，超過10筆資料可點擊<span class="link">上一頁</span>、<span class="link">下一頁</span>切換顯示</li>
@@ -84,32 +84,27 @@
 							</div>
 						</div>
 					</div>
-					<li><span class="oi oi-browser" title="browser" aria-hidden="true">遊戲表現分析頁</span>
-						<ol style="list-style-type: lower-roman">
-							<li>標題1 : <span class="title">遊戲造訪</span></li>
+					<li><span class="oi oi-browser" title="browser" aria-hidden="true"></span>遊戲表現分析:<span class="title">遊戲造訪</span>
+						<ol style="list-style-type: lower-alpha">
+							<li>標題1 : </li>
 							<li>遊戲造訪統計 : 提供<span class="title">總造訪次數</span>、<span class="title">總造訪人數</span>、折線圖 等資訊
-								<ol>
-									<li>折線圖有提供下拉選單-數據顯示區間，可選擇
-										<ul style="list-style-type: none">
-											<li><span class="dropdown-button">近7天</span></li>
-											<li><span class="dropdown-button">近30天</span></li>
-											<li><span class="dropdown-button">近90天</span></li>
-											<li><span class="dropdown-button">總活動期間</span></li>
-										</ul>
-									來顯示區間統計資料</li>
-									<li>折線圖預設數據顯示區間為<span class="title">近7天</span></li>
-									<li>滑鼠游標停在折線圖上會顯示當天的統計資料</li>
-								</ol>
+							<li>折線圖有提供下拉選單，可選擇不同的區間的統計資料，如下：
+								<ul style="list-style-type: none">
+									<li><span class="dropdown-button">近7天</span>（預設為近7天）</li>
+									<li><span class="dropdown-button">近30天</span></li>
+									<li><span class="dropdown-button">近90天</span></li>
+									<li><span class="dropdown-button">總活動期間</span></li>
+								</ul>
 							</li>
-							<li>標題2 : <span class="title">獎品兌換</span></li>
-							<li>獎品兌換列表 : 顯示所有獎品的詳細資料，顯示的資料欄位為<span class="title">獎品名稱</span>、<span class="title">獎品類型</span>、<span class="title">獎品總數</span>、<span class="title">未領取獎品數</span>、<span class="title">已領取獎品數</span>、<span class="title">獎品流向統計-自己領取</span>、<span class="title">獎品流向統計-贈送他人</span>
-								<a class="toggle-button" data-toggle="collapse" href="#note2" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+							<li>滑鼠游標停在折線圖上會顯示當天的統計資料</li>
 							</li>
-							<div class="row">
-								<div class="collapse multi-collapse" id="note2">
-									<div class="collapse-body">資料排序是依照建立遊戲時新增獎品項目的順序顯示</div>
-								</div>
-							</div>
+						</ol>
+					</li>
+					<li><span class="oi oi-browser" title="browser" aria-hidden="true"></span>遊戲表現分析:<span class="title">獎品兌換</span>
+						<ol style="list-style-type:lower-alpha">
+							<li>獎品兌換列表 : 顯示所有獎品的詳細資料，資料排序是依照建立遊戲時新增獎品項目的順序顯示。</li>
+							<li>欄位包含：<span class="title">獎品名稱</span>、<span class="title">獎品類型</span>、<span class="title">獎品總數</span>、<span class="title">未領取獎品數</span>、<span class="title">已領取獎品數</span>、<span class="title">獎品流向統計-自己領取</span>、<span class="title">獎品流向統計-贈送他人</span>
+							</li>
 						</ol>
 					</li>
 				</ol>
