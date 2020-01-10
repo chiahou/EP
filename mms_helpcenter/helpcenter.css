@@ -194,10 +194,19 @@ padding: 0px 4px;
 	width:16px;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width: 640px){
 	.section-title{
 		margin-top: 80px;
-	};
+	}
+	.section{
+		padding-top: 100px;
+	}
+}
+
+@media screen and (max-width: 360px){
+	.section-title{
+		margin-top: 80px;
+	}
 	.section{
 		padding-top: 120px;
 	}
