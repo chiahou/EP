@@ -61,27 +61,26 @@
 				<h4>第一步 - 活動設定</h4>
 				<ol>
 					<li><span class="title">選擇遊戲類別</span>
-						<ol>
-							<li>選擇欲建立活動的遊戲類別，可點擊<span class="link">(試玩看看？)</span>試玩範例
-								<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
-							</li>
-							<div class="col">
-								<div class="collapse multi-collapse" id="note1">
-									<div class="collapse-body">
-										<ul style="list-style-type:disc">
-											<li>輪盤抽獎：可藉由樂趣輪盤抽獎遊戲吸引玩家上門遊玩，並透過獎品導引其到店鋪購物</li>
-											<li>心理測驗：可測驗答題者的屬性、偏好或需求，如個性外向到內向、油性肌到乾性肌、可接受的價錢低到高，並針對測驗結果提供個性化的獎品</li>
-											<li>知識王：可利用與品牌相關的知識或有趣的知識作為題目，藉此了解答題者對某領域的認知程度，並獎勵高分者（即粉絲）較好的獎品，以提升品牌忠誠度與知名度</li>
-										</ul>
-									</div>
+					<ol>
+						<li>選擇欲建立活動的遊戲類別，可點擊<span class="link">(試玩看看？)</span>試玩範例
+						<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a></li>
+						<div class="col">
+							<div class="collapse multi-collapse" id="note1">
+								<div class="collapse-body">
+									<ul style="list-style-type:disc">
+										<li>輪盤抽獎：可藉由樂趣輪盤抽獎遊戲吸引玩家上門遊玩，並透過獎品導引其到店鋪購物</li>
+										<li>心理測驗：可測驗答題者的屬性、偏好或需求，如個性外向到內向、油性肌到乾性肌、可接受的價錢低到高，並針對測驗結果提供個性化的獎品</li>
+										<li>知識王：可利用與品牌相關的知識或有趣的知識作為題目，藉此了解答題者對某領域的認知程度，並獎勵高分者（即粉絲）較好的獎品，以提升品牌忠誠度與知名度</li>
+									</ul>
 								</div>
 							</div>
-							<li>各遊戲類別亦提供不同的遊戲方案（檔期與價格）供選擇</li>
-						</ol>
+						</div>
+						<li>各遊戲類別亦提供不同的遊戲方案（檔期與價格）供選擇</li>
+					</ol>
 					</li>
-					<li><span class="title">遊戲名稱</span>輸入遊戲名稱，上限 25 字</li>
-					<li><span class="title">遊戲敘述</span>輸入遊戲敘述，上限 2,000 字</li>
-					<li><span class="title">遊戲封面</span>設定遊戲的封面圖片，亦可套用樂天提供的封面圖片
+						<li><span class="title">遊戲名稱</span>輸入遊戲名稱，上限 25 字</li>
+						<li><span class="title">遊戲敘述</span>輸入遊戲敘述，上限 2,000 字</li>
+						<li><span class="title">遊戲封面</span>設定遊戲的封面圖片，亦可套用樂天提供的封面圖片
 						<ol style="list-style-type: lower-alpha;">
 							<li>桌機版封面：圖片尺寸需大於 1170*540 pixels</li>
 							<li>手機版封面：圖片尺寸需大於 375*435 pixels</li>
@@ -90,7 +89,7 @@
 					</li>
 					<li><span class="title">活動時間
 					</span>設定遊戲的開始時間，遊戲結束時間會依選擇的遊戲方案自動填入。（請注意：活動時間必須為現在時間的 24 小時後</li>
-					<li><span class="title">活動規則</span>擇活動規則。活動規則的選項會依選擇不同的遊戲類別、方案而有所不同</li>
+					<li><span class="title">活動規則</span>選擇活動規則。活動規則的選項會依選擇不同的遊戲類別、方案而有所不同</li>
 				</ol>
 			</div>
 			<!--step 2-->
@@ -119,47 +118,50 @@
 			</div>
 			<!--step 3-->
 			<div class="section" id="step3">
-				<h4>第三步 - 遊戲設計</h4>
-				<nav>
-					<div class="nav nav-tabs" id="nav-tab" role="tablist">
-						<a class="nav-item nav-link active" id="nav-raffle-tab" data-toggle="tab" href="#raffle" role="tab" aria-controls="nav-raffle" aria-selected="true">輪盤抽獎</a>
-						<a class="nav-item nav-link" id="nav-quiz-tab" data-toggle="tab" href="#quiz" role="tab" aria-controls="nav-profile" aria-selected="false">心理測驗</a>
-						<a class="nav-item nav-link" id="nav-assessment-tab" data-toggle="tab" href="#assessment" role="tab" aria-controls="nav-assessment" aria-selected="false">知識王</a>
-						<a class="nav-item nav-link" id="nav-scratchoff-tab" data-toggle="tab" href="#scratchoff" role="tab" aria-controls="nav-scratchoff" aria-selected="false">刮刮樂</a> 
-					</div>
-				</nav>
-				<div class="tab-content marginBottom" id="nav-tabContent">
-					<!--Raffle-->
-					<div class="tab-pane fade show active" id="raffle" role="tabpanel" aria-labelledby="nav-raffle-tab">
-						<ol>
-							<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率。
-								<ol style="list-style-type: lower-alpha;">
-									<li>中獎機率可為 0，機率總和必須為 100%。系統預設為各獎項平均分配機率</li>
-									<li>機率可設定至小數點後一位：xx.x%</li>
-									<li>僅能調整機率，不能新增、刪除選項</li>
-								</ol>
-							</li>
-							<li><span class="title">遊戲主題</span>選擇你喜歡的遊戲主題，亦可為輪盤設定自己喜歡的配色</li>
+			<h4>第三步 - 遊戲設計</h4>
+			<nav>
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<a class="nav-item nav-link active" id="nav-raffle-tab" data-toggle="tab" href="#raffle" role="tab" aria-controls="nav-raffle" aria-selected="true">輪盤抽獎</a>
+					<a class="nav-item nav-link" id="nav-quiz-tab" data-toggle="tab" href="#quiz" role="tab" aria-controls="nav-profile" aria-selected="false">心理測驗</a>
+					<a class="nav-item nav-link" id="nav-assessment-tab" data-toggle="tab" href="#assessment" role="tab" aria-controls="nav-assessment" aria-selected="false">知識王</a>
+					<a class="nav-item nav-link" id="nav-scratchoff-tab" data-toggle="tab" href="#scratchoff" role="tab" aria-controls="nav-scratchoff" aria-selected="false">刮刮樂</a>
+				</div>
+			</nav>
+			<div class="tab-content marginBottom" id="nav-tabContent">
+			<!--Raffle-->
+			<div class="tab-pane fade show active" id="raffle" role="tabpanel" aria-labelledby="nav-raffle-tab">
+				<ol>
+					<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率
+						<ol style="list-style-type: lower-alpha;">
+							<li>中獎機率須為整數，機率總和必須為 100%（包含失敗機率）</li>
+							<li>系統預設為各獎項平均分配機率</li>
+							<li>僅能調整機率，不能新增、刪除選項</li>
 						</ol>
-					</div>
-					<!--Quiz-->
-					<div class="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="nav-quiz-tab">
-						<ol>
-							<li><span class="title">測驗題目與得分</span>
-							<ol style="list-style-type: lower-alpha;">
-								<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
-								<li>新增題目：點擊 按鈕-+新增題目（題目上限為 100 個）</li>
-								<li>刪除題目：點擊欲刪除題目的左側 Icon-x</li>
-								<li>新增選項：點擊 按鈕-+新增選項（選項上限為 6 個）</li>
-								<li>刪除選項：點擊欲刪除選項的左側 Icon-x</li>
-								<li>設定好題目與得分，即可點擊 按鈕-設定結果 開啟 彈窗-編輯結果分數，開始編輯遊戲結果與分數</li>
-							</ol>
-						</li>
-						<li><span class="title">編輯結果分數</span>結果數量：點擊【你預計分成幾種結果】欄位中的 按鈕--/+ 設定結果數量，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
-						<li>分數區間：系統以<span class="title">等距分級</span>的方式幫你算出對應的分數區間，你亦可自行編輯</li>
-						<li>點擊 按鈕-看測驗結果 導至 網頁-測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 按鈕-返回編輯題目，繼續編輯 網頁-測驗題目與得分 的內容</li>
-						<li><span class="title">測驗結果與得分</span>
-						<ol>
+					</li>
+					<li><span class="title">遊戲主題</span>選擇你喜歡的遊戲主題，亦可為輪盤設定自己喜歡的配色</li>
+				</ol>
+			</div>
+			<!--Quiz-->
+			<div class="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="nav-quiz-tab">
+				<ol>
+					<li><span class="title">測驗題目與得分</span>
+					<ol style="list-style-type: lower-alpha;">
+						<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
+						<li>新增題目：點擊<span class="secondary-button">新增題目</span>（題目上限為 100 個）</li>
+						<li>刪除題目：點擊題目左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該題目</li>
+						<li>新增選項：點擊<span class="secondary-button">新增選項</span>（選項上限為 6 個）</li>
+						<li>刪除選項：點擊選項左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該選項</li>
+						<li>設定好題目與得分，即可點擊<span class="primary-button">設定結果</span>開啟<span class="title">編輯結果分數</span>彈窗，開始編輯<span class="title">測驗結果與得分</span></li>
+					</ol>
+					</li>
+					<li><span class="title">編輯結果分數</span>
+						<ol style="list-style-type: lower-alpha;">
+							<li>結果數量：點擊「你預計分成幾種結果」</span>中的<span class="primary-button">＋</span><span class="primary-button">－</span>，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
+							<li>分數區間：系統以「等距分級」的方式幫你算出對應的分數區間，你亦可自行編輯</li>
+							<li><span class="primary-button">看測驗結果</span> 導至測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 <span class="secondary-button">返回編輯題目</span>，繼續編輯<span class="title">測驗題目與得分</span>的內容</li>
+						</ol></li>
+					<li><span class="title">測驗結果與得分</span>
+						<ol style="list-style-type: lower-alpha;">
 							<li>幫你的遊戲設定結果、結果描述、結果圖片以及獎品
 								<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
 							</li>
@@ -172,28 +174,34 @@
 									</div>
 								</div>
 							</div>
-							<li>返回編輯題目 : 如需編輯題目，點擊 按鈕-返回編輯題目 導到 網頁-測驗題目與得分 即可編輯</li>
-							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊 按鈕-編輯結果分數 開啟 彈窗-編輯結果分數 即可編輯</li>
+							<li>返回編輯題目 : 如需編輯題目，點擊<span class="secondary-button">返回編輯題目</span>回到<span class="title">測驗題目與得分</span>即可編輯</li>
+							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊<span class="secondary-button">編輯結果分數</span>開啟編輯<span class="title">編輯結果分數</span>即可編輯</li>
 						</ol>
-					</div>
-					<!--Assessment-->
-					<div class="tab-pane fade" id="assessment" role="tabpanel" aria-labelledby="nav-assessment-tab">
-						<ol>
-							<li><span class="title">測驗題目與得分</span>
-							<ol style="list-style-type: lower-alpha;">
-								<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
-								<li>新增題目：點擊 按鈕-+新增題目（題目上限為 100 個）</li>
-								<li>刪除題目：點擊欲刪除題目的左側 Icon-x</li>
-								<li>新增選項：點擊 按鈕-+新增選項（選項上限為 6 個）</li>
-								<li>刪除選項：點擊欲刪除選項的左側 Icon-x</li>
-								<li>設定好題目與得分，即可點擊 按鈕-設定結果 開啟 彈窗-編輯結果分數，開始編輯遊戲結果與分數</li>
-							</ol>
-						</li>
-						<li><span class="title">編輯結果分數</span>結果數量：點擊【你預計分成幾種結果】欄位中的 按鈕--/+ 設定結果數量，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
-						<li>分數區間：系統以<span class="title">等距分級</span>的方式幫你算出對應的分數區間，你亦可自行編輯</li>
-						<li>點擊 按鈕-看測驗結果 導至 網頁-測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 按鈕-返回編輯題目，繼續編輯 網頁-測驗題目與得分 的內容</li>
-						<li><span class="title">測驗結果與得分</span>
-						<ol>
+					</li>
+				</ol>
+			</div>
+			<!--Assessment-->
+			<div class="tab-pane fade" id="assessment" role="tabpanel" aria-labelledby="nav-assessment-tab">
+				<ol>
+					<li><span class="title">測驗題目與得分</span>
+						<ol style="list-style-type: lower-alpha;">
+							<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
+							<li>新增題目：點擊<span class="secondary-button">新增題目</span>（題目上限為 100 個）</li>
+							<li>刪除題目：點擊題目左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該題目</li>
+							<li>新增選項：點擊<span class="secondary-button">新增選項</span>（選項上限為 6 個）</li>
+							<li>刪除選項：點擊選項左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該選項</li>
+							<li>設定好題目與得分，即可點擊<span class="primary-button">設定結果</span>開啟<span class="title">編輯結果分數</span>彈窗，開始編輯<span class="title">測驗結果與得分</span></li>
+						</ol>
+					</li>
+					<li><span class="title">編輯結果分數</span>
+						<ol style="list-style-type: lower-alpha;">
+							<li>結果數量：點擊「你預計分成幾種結果」</span>中的<span class="primary-button">＋</span><span class="primary-button">－</span>，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
+							<li>分數區間：系統以「等距分級」的方式幫你算出對應的分數區間，你亦可自行編輯</li>
+							<li><span class="primary-button">看測驗結果</span> 導至測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 <span class="secondary-button">返回編輯題目</span>，繼續編輯<span class="title">測驗題目與得分</span>的內容</li>
+						</ol>
+					</li>
+					<li><span class="title">測驗結果與得分</span>
+						<ol style="list-style-type: lower-alpha;">
 							<li>幫你的遊戲設定結果、結果描述、結果圖片以及獎品
 								<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
 							</li>
@@ -206,24 +214,24 @@
 									</div>
 								</div>
 							</div>
-							<li>返回編輯題目 : 如需編輯題目，點擊 按鈕-返回編輯題目 導到 網頁-測驗題目與得分 即可編輯</li>
-							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊 按鈕-編輯結果分數 開啟 彈窗-編輯結果分數 即可編輯</li>
+							<li>返回編輯題目 : 如需編輯題目，點擊<span class="secondary-button">返回編輯題目</span>回到<span class="title">測驗題目與得分</span>即可編輯</li>
+							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊<span class="secondary-button">編輯結果分數</span>開啟編輯<span class="title">編輯結果分數</span>即可編輯</li>
 						</ol>
-					</div>
-					<!--Scratchoff-->
-					<div class="tab-pane fade" id="scratchoff" role="tabpanel" aria-labelledby="nav-scratchoff-tab">
-						<ol>
-							<li><span class="title">中獎機率</span>
-								<ol style="list-style-type: lower-alpha;">
-									<li>中獎機率可為 0，機率總和必須為 100%。系統預設為各獎項平均分配機率</li>
-									<li>機率可設定至小數點後一位：xx.x%</li>
-									<li>僅能調整機率，不能新增、刪除選項</li>
-								</ol>
-							</li>
-							<li><span class="title">刮刮樂主題</span>依照你的品牌風格，選擇一款適合你的刮刮樂主題。<br>我們也會不定期推出年節主題，讓你為即將到來的節慶打造專屬行銷活動！</li>
+					</li>
+				</ol>
+			</div>
+			<!--Scratchoff-->
+			<div class="tab-pane fade" id="scratchoff" role="tabpanel" aria-labelledby="nav-scratchoff-tab">
+				<ol>
+					<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率
+						<ol style="list-style-type: lower-alpha;">
+							<li>中獎機率須為整數，機率總和必須為 100%（包含失敗機率）</li>
+							<li>系統預設為各獎項平均分配機率</li>
+							<li>僅能調整機率，不能新增、刪除選項</li>
 						</ol>
-					</div>
-				</div>
+					</li>
+					<li><span class="title">刮刮樂主題</span>依照你的品牌風格，選擇一款適合你的刮刮樂主題。<br>我們也會不定期推出年節主題，讓你為即將到來的節慶打造專屬行銷活動！</li>
+				</ol>
 			</div>
 			<!--step 4-->
 			<div class="section" id="step4">
@@ -233,8 +241,8 @@
 				<ol>
 					<li>打開手機上能夠讀取二維碼（QR Code）的軟體，例如:
 						<ul style="list-style-type: disc">
-							<li>iphone用戶，可打開「相機」讀取二維碼</li>
-							<li>通訊軟體例如Line、Wechat的「加好友」也有讀取二維碼的功能</li>
+						<li>iphone用戶，可打開「相機」讀取二維碼</li>
+						<li>通訊軟體例如Line、Wechat的「加好友」也有讀取二維碼的功能</li>
 						</ul>
 					</li>
 					<li>讀取預覽畫面上的二維碼，如下方示意圖<br><img src="../../img/qr_code.png" style="width:64px; height:64px; margin: 4px 8px">（此圖僅為示意圖，並非有效二維碼）</li>
@@ -243,39 +251,33 @@
 			</div>
 			<!--step 5-->
 			<div class="section" id="step5">
-				<h4>第五步 - 完成</h4>
-				<p>進入第五步代表你已成功建置行銷小遊戲囉！<br>
-					你可以選擇：
-					<ol>
-						<li>直接付費，進入付費流程</li>
-						<li>稍後付費，先回到遊戲列表</li>
-					</ol>
-				待付費成功後，你的遊戲就可以準備上線啦！</p>
+			<h4>第五步 - 完成</h4>
+			<p>進入第五步代表你已成功建置行銷小遊戲囉！<br>
+			你可以選擇：
+			<ol>
+			<li>直接付費，進入付費流程</li>
+			<li>稍後付費，先回到遊戲列表</li>
+			</ol>
+			待付費成功後，你的遊戲就可以準備上線啦！</p>
 			</div>
 			<div class="section removed" id="reference">
-				<h4>文件下載</h4>
-				<ol>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ol>
-			</div>
-		</div>
-		<!-- footer-->
-		<footer>© Rakuten, Inc.</footer>
-		<!-- Optional JavaScript -->
-		<!--feather icon-->
-		<script>
-		feather.repl
-		</script>
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	</body>
+			<h4>文件下載</h4>
+			<ol>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
+</div>
+<!-- footer-->
+<footer>© Rakuten, Inc.</footer>
+<!-- Optional JavaScript -->
+<!--feather icon-->
+<script>
+feather.replace()
+</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
