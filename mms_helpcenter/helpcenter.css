@@ -203,7 +203,7 @@ padding: 0px 4px;
 	}
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
 	.section-title{
 		margin-top: 80px;
 	}
