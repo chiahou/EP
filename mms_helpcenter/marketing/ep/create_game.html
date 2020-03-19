@@ -128,62 +128,23 @@
 				</div>
 			</nav>
 			<div class="tab-content marginBottom" id="nav-tabContent">
-			<!--Raffle-->
-			<div class="tab-pane fade show active" id="raffle" role="tabpanel" aria-labelledby="nav-raffle-tab">
-				<ol>
-					<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率
-						<ol style="list-style-type: lower-alpha;">
-							<li>中獎機率須為整數，機率總和必須為 100%（包含失敗機率）</li>
-							<li>系統預設為各獎項平均分配機率</li>
-							<li>僅能調整機率，不能新增、刪除選項</li>
-						</ol>
-					</li>
-					<li><span class="title">遊戲主題</span>選擇你喜歡的遊戲主題，亦可為輪盤設定自己喜歡的配色</li>
-				</ol>
-			</div>
-			<!--Quiz-->
-			<div class="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="nav-quiz-tab">
-				<ol>
-					<li><span class="title">測驗題目與得分</span>
-					<ol style="list-style-type: lower-alpha;">
-						<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
-						<li>新增題目：點擊<span class="secondary-button">新增題目</span>（題目上限為 100 個）</li>
-						<li>刪除題目：點擊題目左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該題目</li>
-						<li>新增選項：點擊<span class="secondary-button">新增選項</span>（選項上限為 6 個）</li>
-						<li>刪除選項：點擊選項左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該選項</li>
-						<li>設定好題目與得分，即可點擊<span class="primary-button">設定結果</span>開啟<span class="title">編輯結果分數</span>彈窗，開始編輯<span class="title">測驗結果與得分</span></li>
+				<!--Raffle-->
+				<div class="tab-pane fade show active" id="raffle" role="tabpanel" aria-labelledby="nav-raffle-tab">
+					<ol>
+						<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率
+							<ol style="list-style-type: lower-alpha;">
+								<li>中獎機率須為整數，機率總和必須為 100%（包含失敗機率）</li>
+								<li>系統預設為各獎項平均分配機率</li>
+								<li>僅能調整機率，不能新增、刪除選項</li>
+							</ol>
+						</li>
+						<li><span class="title">遊戲主題</span>選擇你喜歡的遊戲主題，亦可為輪盤設定自己喜歡的配色</li>
 					</ol>
-					</li>
-					<li><span class="title">編輯結果分數</span>
-						<ol style="list-style-type: lower-alpha;">
-							<li>結果數量：點擊「你預計分成幾種結果」</span>中的<span class="primary-button">＋</span><span class="primary-button">－</span>，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
-							<li>分數區間：系統以「等距分級」的方式幫你算出對應的分數區間，你亦可自行編輯</li>
-							<li><span class="primary-button">看測驗結果</span> 導至測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 <span class="secondary-button">返回編輯題目</span>，繼續編輯<span class="title">測驗題目與得分</span>的內容</li>
-						</ol></li>
-					<li><span class="title">測驗結果與得分</span>
-						<ol style="list-style-type: lower-alpha;">
-							<li>幫你的遊戲設定結果、結果描述、結果圖片以及獎品
-								<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
-							</li>
-							<div class="col">
-								<div class="collapse multi-collapse" id="note1">
-									<div class="collapse-body">
-										<ul style="list-style-type:disc">
-											<li>心理測驗：幫不同的分數區間設定不同的屬性、偏好或需求等，如 0~40 分的測驗結果為喜歡宅在家、41~70 分為喜歡出門逛街、71~100 分為喜歡戶外運動，可根據不同的測驗結果提供個性化的獎品</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<li>返回編輯題目 : 如需編輯題目，點擊<span class="secondary-button">返回編輯題目</span>回到<span class="title">測驗題目與得分</span>即可編輯</li>
-							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊<span class="secondary-button">編輯結果分數</span>開啟編輯<span class="title">編輯結果分數</span>即可編輯</li>
-						</ol>
-					</li>
-				</ol>
-			</div>
-			<!--Assessment-->
-			<div class="tab-pane fade" id="assessment" role="tabpanel" aria-labelledby="nav-assessment-tab">
-				<ol>
-					<li><span class="title">測驗題目與得分</span>
+				</div>
+				<!--Quiz-->
+				<div class="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="nav-quiz-tab">
+					<ol>
+						<li><span class="title">測驗題目與得分</span>
 						<ol style="list-style-type: lower-alpha;">
 							<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
 							<li>新增題目：點擊<span class="secondary-button">新增題目</span>（題目上限為 100 個）</li>
@@ -192,47 +153,88 @@
 							<li>刪除選項：點擊選項左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該選項</li>
 							<li>設定好題目與得分，即可點擊<span class="primary-button">設定結果</span>開啟<span class="title">編輯結果分數</span>彈窗，開始編輯<span class="title">測驗結果與得分</span></li>
 						</ol>
-					</li>
-					<li><span class="title">編輯結果分數</span>
-						<ol style="list-style-type: lower-alpha;">
-							<li>結果數量：點擊「你預計分成幾種結果」</span>中的<span class="primary-button">＋</span><span class="primary-button">－</span>，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
-							<li>分數區間：系統以「等距分級」的方式幫你算出對應的分數區間，你亦可自行編輯</li>
-							<li><span class="primary-button">看測驗結果</span> 導至測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 <span class="secondary-button">返回編輯題目</span>，繼續編輯<span class="title">測驗題目與得分</span>的內容</li>
-						</ol>
-					</li>
-					<li><span class="title">測驗結果與得分</span>
-						<ol style="list-style-type: lower-alpha;">
-							<li>幫你的遊戲設定結果、結果描述、結果圖片以及獎品
-								<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
-							</li>
-							<div class="col">
-								<div class="collapse multi-collapse" id="note1">
-									<div class="collapse-body">
-										<ul style="list-style-type:disc">
-											<li>知識王：可給予答對題數少、分數低者較少的優惠，反之獎勵高分者（即忠實粉絲）較好的獎品</li>
-										</ul>
+						</li>
+						<li><span class="title">編輯結果分數</span>
+							<ol style="list-style-type: lower-alpha;">
+								<li>結果數量：點擊「你預計分成幾種結果」</span>中的<span class="primary-button">＋</span><span class="primary-button">－</span>，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
+								<li>分數區間：系統以「等距分級」的方式幫你算出對應的分數區間，你亦可自行編輯</li>
+								<li><span class="primary-button">看測驗結果</span> 導至測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 <span class="secondary-button">返回編輯題目</span>，繼續編輯<span class="title">測驗題目與得分</span>的內容</li>
+							</ol></li>
+						<li><span class="title">測驗結果與得分</span>
+							<ol style="list-style-type: lower-alpha;">
+								<li>幫你的遊戲設定結果、結果描述、結果圖片以及獎品
+									<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+								</li>
+								<div class="col">
+									<div class="collapse multi-collapse" id="note1">
+										<div class="collapse-body">
+											<ul style="list-style-type:disc">
+												<li>心理測驗：幫不同的分數區間設定不同的屬性、偏好或需求等，如 0~40 分的測驗結果為喜歡宅在家、41~70 分為喜歡出門逛街、71~100 分為喜歡戶外運動，可根據不同的測驗結果提供個性化的獎品</li>
+											</ul>
+										</div>
 									</div>
 								</div>
-							</div>
-							<li>返回編輯題目 : 如需編輯題目，點擊<span class="secondary-button">返回編輯題目</span>回到<span class="title">測驗題目與得分</span>即可編輯</li>
-							<li>編輯結果分數：如需編輯結果數量或分數區間，點擊<span class="secondary-button">編輯結果分數</span>開啟編輯<span class="title">編輯結果分數</span>即可編輯</li>
-						</ol>
-					</li>
-				</ol>
+								<li>返回編輯題目 : 如需編輯題目，點擊<span class="secondary-button">返回編輯題目</span>回到<span class="title">測驗題目與得分</span>即可編輯</li>
+								<li>編輯結果分數：如需編輯結果數量或分數區間，點擊<span class="secondary-button">編輯結果分數</span>開啟編輯<span class="title">編輯結果分數</span>即可編輯</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+				<!--Assessment-->
+				<div class="tab-pane fade" id="assessment" role="tabpanel" aria-labelledby="nav-assessment-tab">
+					<ol>
+						<li><span class="title">測驗題目與得分</span>
+							<ol style="list-style-type: lower-alpha;">
+								<li>幫你的遊戲想題目、選項，以及每個選項的配分，選項內容可選擇以純文字、圖片，或文字+圖片呈</li>
+								<li>新增題目：點擊<span class="secondary-button">新增題目</span>（題目上限為 100 個）</li>
+								<li>刪除題目：點擊題目左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該題目</li>
+								<li>新增選項：點擊<span class="secondary-button">新增選項</span>（選項上限為 6 個）</li>
+								<li>刪除選項：點擊選項左側的<i data-feather="x" style="width:1rem; margin-left:4px"></i>可刪除該選項</li>
+								<li>設定好題目與得分，即可點擊<span class="primary-button">設定結果</span>開啟<span class="title">編輯結果分數</span>彈窗，開始編輯<span class="title">測驗結果與得分</span></li>
+							</ol>
+						</li>
+						<li><span class="title">編輯結果分數</span>
+							<ol style="list-style-type: lower-alpha;">
+								<li>結果數量：點擊「你預計分成幾種結果」</span>中的<span class="primary-button">＋</span><span class="primary-button">－</span>，系統將根據你的設定於下方顯示相同數量的結果與分數區間（上限 10 種結果）</li>
+								<li>分數區間：系統以「等距分級」的方式幫你算出對應的分數區間，你亦可自行編輯</li>
+								<li><span class="primary-button">看測驗結果</span> 導至測驗結果與得分，開始編輯測驗結果與獎品；亦可點擊 <span class="secondary-button">返回編輯題目</span>，繼續編輯<span class="title">測驗題目與得分</span>的內容</li>
+							</ol>
+						</li>
+						<li><span class="title">測驗結果與得分</span>
+							<ol style="list-style-type: lower-alpha;">
+								<li>幫你的遊戲設定結果、結果描述、結果圖片以及獎品
+									<a class="toggle-button" data-toggle="collapse" href="#note1" role="button" aria-expanded="false"><i data-feather="alert-circle" class="icon-sm"></i></a>
+								</li>
+								<div class="col">
+									<div class="collapse multi-collapse" id="note1">
+										<div class="collapse-body">
+											<ul style="list-style-type:disc">
+												<li>知識王：可給予答對題數少、分數低者較少的優惠，反之獎勵高分者（即忠實粉絲）較好的獎品</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<li>返回編輯題目 : 如需編輯題目，點擊<span class="secondary-button">返回編輯題目</span>回到<span class="title">測驗題目與得分</span>即可編輯</li>
+								<li>編輯結果分數：如需編輯結果數量或分數區間，點擊<span class="secondary-button">編輯結果分數</span>開啟編輯<span class="title">編輯結果分數</span>即可編輯</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+				<!--Scratchoff-->
+				<div class="tab-pane fade" id="scratchoff" role="tabpanel" aria-labelledby="nav-scratchoff-tab">
+					<ol>
+						<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率
+							<ol style="list-style-type: lower-alpha;">
+								<li>中獎機率須為整數，機率總和必須為 100%（包含失敗機率）</li>
+								<li>系統預設為各獎項平均分配機率</li>
+								<li>僅能調整機率，不能新增、刪除選項</li>
+							</ol>
+						</li>
+						<li><span class="title">刮刮樂主題</span>依照你的品牌風格，選擇一款適合你的刮刮樂主題。<br>我們也會不定期推出年節主題，讓你為即將到來的節慶打造專屬行銷活動！</li>
+					</ol>
+				</div>
 			</div>
-			<!--Scratchoff-->
-			<div class="tab-pane fade" id="scratchoff" role="tabpanel" aria-labelledby="nav-scratchoff-tab">
-				<ol>
-					<li><span class="title">中獎機率</span>幫你的獎品設定中獎機率
-						<ol style="list-style-type: lower-alpha;">
-							<li>中獎機率須為整數，機率總和必須為 100%（包含失敗機率）</li>
-							<li>系統預設為各獎項平均分配機率</li>
-							<li>僅能調整機率，不能新增、刪除選項</li>
-						</ol>
-					</li>
-					<li><span class="title">刮刮樂主題</span>依照你的品牌風格，選擇一款適合你的刮刮樂主題。<br>我們也會不定期推出年節主題，讓你為即將到來的節慶打造專屬行銷活動！</li>
-				</ol>
-			</div>
+		</div>
 			<!--step 4-->
 			<div class="section" id="step4">
 				<h4>第四步 - 預覽</h4>
@@ -251,25 +253,25 @@
 			</div>
 			<!--step 5-->
 			<div class="section" id="step5">
-			<h4>第五步 - 完成</h4>
-			<p>進入第五步代表你已成功建置行銷小遊戲囉！<br>
-			你可以選擇：
-			<ol>
-			<li>直接付費，進入付費流程</li>
-			<li>稍後付費，先回到遊戲列表</li>
-			</ol>
-			待付費成功後，你的遊戲就可以準備上線啦！</p>
+				<h4>第五步 - 完成</h4>
+				<p>進入第五步代表你已成功建置行銷小遊戲囉！<br>
+				你可以選擇：
+				<ol>
+					<li>直接付費，進入付費流程</li>
+					<li>稍後付費，先回到遊戲列表</li>
+				</ol>
+				待付費成功後，你的遊戲就可以準備上線啦！</p>
 			</div>
 			<div class="section removed" id="reference">
-			<h4>文件下載</h4>
-			<ol>
-			<li></li>
-			<li></li>
-		</ol>
-	</div>
-</div>
+				<h4>文件下載</h4>
+				<ol>
+				<li></li>
+				<li></li>
+				</ol>
+			</div>
+		</div>
 <!-- footer-->
-<footer>© Rakuten, Inc.</footer>
+		<footer>© Rakuten, Inc.</footer>
 <!-- Optional JavaScript -->
 <!--feather icon-->
 <script>
