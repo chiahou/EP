@@ -29,7 +29,23 @@ nav li:hover, a:hover{
 color: #bf0000;
 font-weight: 400;
 }
-
+.navbar-brand{
+	font-weight: 400;
+	}
+	.navbar{
+	background: #e9e9e9;
+	box-shadow: 0px 1px 1px 1px rgba(110,110,110,0.5);
+	}
+	.nav-link{
+	color: #bf0000;
+	}
+	.nav-pills .nav-link.active{
+	font-weight: 400;
+	background-color: #bf0000;
+	}
+	.nav-tabs .nav-link.active{
+	font-weight: 400;
+	}
 div li a{
 	padding: 0px 4px;
 	font-weight: 400;
@@ -61,38 +77,36 @@ footer{
 	font-size:0.9rem;
 	color:#999999;
 }
-
+.card-body:hover{
+	background-color: rgba(51,51,51,1);
+	border-radius: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
 .mb-3{
 	min-height: 20%;
 }
-.navbar-brand{
-font-weight: 400;
+.collapse-body{
+	padding: 16px 16px;
+	border: 1px solid #e9e9e9;
+	border-radius: 10px;
 }
-.navbar{
-background: #e9e9e9;
-box-shadow: 0px 1px 1px 1px rgba(110,110,110,0.5);
+
+.icon-sm{
+	width:16px;
 }
-.nav-link{
-color: #bf0000;
-}
-.nav-pills .nav-link.active{
-font-weight: 400;
-background-color: #bf0000;
-}
-.nav-tabs .nav-link.active{
-font-weight: 400;
-}
+
 .breadcrumb{
 	background-color: transparent;
 	font-size:0.9rem;
 	padding:0px 0px;
 }
 .supplement{
-color: #999999;
+	color: #999999;
 }
 .supplement:hover{
-color: #999999;
-font-weight: 400;
+	color: #999999;
+	font-weight: 400;
 }
 .section-banner{
 	background-image:url(img/banner-top.png);
@@ -101,26 +115,26 @@ font-weight: 400;
 	height:30%;
 }
 .section-title{
-padding-top: 40px;
+	padding-top: 40px;
 }
 .section{
-padding-top: 60px;
-padding-bottom: 100px;
+	padding-top: 60px;
+	padding-bottom: 100px;
 }
 .removed{
-display: none;
+	display: none;
 }
 .hidden{
-visibility: hidden;
+	visibility: hidden;
 }
 
 
-/* */
+/* components */
 
 .title{
-color: #333333;
-font-weight:400;
-padding: 0px 4px;
+	color: #333333;
+	font-weight:400;
+	padding: 0px 4px;
 }
 .title::before{
 	content:"【";
@@ -178,24 +192,6 @@ padding: 0px 4px;
 	color: #ff0000;
 }
 
-.card-body:hover{
-	background-color: rgba(51,51,51,1);
-	border-radius: 10px;
-	color: #ffffff;
-	text-decoration: none;
-}
-.card-deck{
-	
-}
-.collapse-body{
-	padding: 16px 16px;
-	border: 1px solid #e9e9e9;
-	border-radius: 10px;
-}
-
-.icon-sm{
-	width:16px;
-}
 
 @media screen and (max-width: 640px){
 	.section-title{
